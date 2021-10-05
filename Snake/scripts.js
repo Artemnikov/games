@@ -21,6 +21,6 @@ function update () {
 
 function draw () {
     gameBoard.innerHTML = '';
-    drawSnake(gameBoard)
+    drawSnake(gameBoard,drawFood)
     drawFood(gameBoard)
 }

@@ -1,19 +1,17 @@
-let character = document.getElementById('character');
+let character = document.getElementById('character');   
 let block = document.getElementById('block');
-let score = 1;
 let printScore = document.getElementById('score');
 let printScoreBaseState = printScore.innerHTML;
+let score = 1;
 
 window.addEventListener('keydown', (e) => {
-    if(e.key == ' '){
-        animateCharacter();
-    }
+    if(e.key == ' ') animateCharacter();
 })
 
 function animateCharacter () {
     blockAnimation(true);
     if(character.classList == 'animate_character') {return}
-    characterAnimation(true)
+        characterAnimation(true)
     setTimeout( function() {
         characterAnimation(false)
       }, 500);

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    position: relative;
+    width: 100vmin;
+    height: 100vmin;
+    background-color: #ccc;
+}
+
+.block {
+    position: relative;
+    top: 0;
+    content: '';
+    background-color: blue;
+}
+
+#stop {
+    animation-play-state: paused;
+}
+
+.block_animate {
+    animation: moving_block 2s infinite linear ;
+}
+
+@keyframes moving_block {
+    0% { left: 0; }
+    50% { left: calc(100% - 200px); }
+    100% { left: 0; }
+}
