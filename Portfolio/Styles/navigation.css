@@ -1,0 +1,94 @@
+header {
+  position: relative;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  width: 100vw;
+  padding-block: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-navbar);
+  list-style-type: none;
+  z-index: 1;
+}
+
+#navbar span {
+  font-size: 2rem;
+}
+
+.topbar {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.topbar li {
+  display: none;
+  text-align: center;
+  padding-inline: 0.5rem;
+  cursor: pointer;
+}
+
+.topbar li:hover {
+  opacity: 1;
+  border-bottom: 4px solid black;
+}
+
+#navbar a {
+  color: var(--clr-navbar-icons);
+  text-decoration: none;
+  font-family: var(--ff-navbar-icons);
+}
+
+#hamburger_icon {
+  position: absolute;
+  left: 0;
+  padding: 0.35em;
+  background-color: var(--clr-about);
+  cursor: pointer;
+  color: white;
+  z-index: 3;
+}
+
+#hamburger_icon:hover {
+  opacity: 0.8;
+}
+
+#hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 95vh;
+  opacity: 0.9;
+  background-color: var(--clr-navbar);
+  z-index: 2;
+}
+
+.openburger {
+  animation: burger_animation 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes burger_animation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90vw;
+  }
+}
+
+@media (min-width: 800px) {
+  .topbar li {
+    display: block;
+  }
+}

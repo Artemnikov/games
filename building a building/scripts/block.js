@@ -1,5 +1,5 @@
 import {gameBoard} from './game.js'
-export let block = {
+export let blockData = {
     height: 30,
     width: 200,
     draw: function () {
@@ -10,8 +10,4 @@ export let block = {
         newBLock.style.width = this.width + 'px'
         gameBoard.append(newBLock)
     },
-    stop: function (lastBlock) {
-        lastBlock.id = 'stop';
-    }
-
 }
