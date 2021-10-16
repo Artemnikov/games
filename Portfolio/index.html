@@ -4,68 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="./Styles/navigation.css">
-    <link rel="stylesheet" href="./Styles/projects.css">
-    <link rel="stylesheet" href="./Styles/footer.css">
-    <script src="./scripts/scripts.js" defer type="module"></script>
-    <title>Artem's Place</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <ul id="navbar">
-            <i id="hamburger_icon" class="fas fa-bars fa-3x"></i>
-            <div id="hamburger">
-                <li class="burger_content hide" ><a href="#"><span>About</span></a></li>
-                <li class="burger_content hide" ><a href="#"><span>Projects</span></a></li>
-                <li class="burger_content hide" ><a href="#"><span>Contact</span></a></li>
-            </div>
-            <div class="topbar">
-            <li><a href="#"><span>About</span></a></li>
-            <li><a href="#"><span>Projects</span></a></li>
-            <li><a href="#"><span>Contact</span></a></li>
-            </div>
-        </ul>
+            <nav class="main_nav">
+                <img src="./img/logo.PNG" alt="">
+                <ul>
+                    <li><a class="btn" href="#">Works</a></li>
+                    <li><a class="btn" href="#">Say Hello!</a></li>
+                </ul>
+            </nav>
 
-        <div class="about_artem">
-            <img src="./img/pp.jfif" alt="">
-            <h2 class="title">Artem Meshkov</h2>
-            <p class="title_description">Full-stack Dev</p>
-
-            <div id="prog_container">
-                <span class="prog_lang">HTML5</span>
-                <span class="prog_lang">CSS3</span>
-                <span class="prog_lang">JavaScript</span>
-                <span class="prog_lang">PHP</span>
-            </div>
-            <div id="contact">
-                <i class="fas fa-phone-square fa-2x"><a href="tel:+972508147511">0508147511</a></i>
-                <i class="fas fa-envelope-square fa-2x"><a href="mailto:sartem.meshkov@gmail.com">sartem.meshkov@gmail.com</a></i>
-                <i class="fab fa-linkedin fa-2x"><a href="https://www.linkedin.com/in/artem-meshkov-3186401a5/">linkedin.com/in/Artem-Meshkov</a></i>
-            </div>
-
-            <p class="welcome">Hi!, a "new" Full-Stack developer here!, I love making fully responsive websites, you are most welcome to see my works down below. <br> Please enjoy my page !</p>
-        </div>
+            <section class="hero">
+                <h1>Full-Stack Developer</h1>
+                <h2>I code the Front and Back-end, and i love what i do!</h2>
+                <img src="./img/pp.jpg" alt="">
+                <img src="./img/hero.svg" alt="">
+            </section>
     </header>
     <main>
-        <div class="projects">
-            <h2 class="projects_title">Projects</h2>
-            <div class="project">
-                <h2 class="project_title">Memory Card Game</h2>
-                <p class="project_description">A full-Stack game projectt. This project was built with HTML, CSS and vanilla Java Script. my part was to build the landing page and part of the logic for the game itself. The project shows the ability to work as a team</p>
-                <img class="project_img" src="./img/Projects/MemCardGame/Game_preview.png" alt="">
+        <section>
+            <div class="about">
+                <h1>Hi, I'm Artem. Nice to meet you.</h1>
+                <p>Since beginning my journey as a freelance Embedded Systems programmer 3 years ago, i've switched to web development last year, i made some project for small clients with my partner. I'm quite confident and open minded, naturally curius and always looking to improve my skills.
+                </p>
             </div>
-        </div>
+            
+            <div class="experties">
+                <div class="box">
+                    <i class="fas fa-code fa-4x"></i>
+                    <h2>Front-end Developer</h2>
+                    <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                    <h3>Languages I speak:</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <h3>Dev Tools:</h3>
+                    <ul>
+                        <li>Visual Studio</li>
+                        <li>GitHub</li>
+                        <li>GitXtentions</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <i class="fas fa-server fa-4x"></i>
+                    <h2>Back-End</h2>
+                    <p>I enjoy bringing my works online and working with databases</p>
+                    <h3>Languages i think in:</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>JSON</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="projects_title">
+                <h2>My Recent Work</h2>
+                <p>Here are few Projects i've worked on. Want to see more? <a href="mailto:sartem.meshkov@gmail.com">Email me</a></p>
+            </div>
+            <div class="projects">
+                <div class="project">
+                    <p>Simple memory game, showcasing my programming potential</p>
+                    <a class="btn" href="#">Open Project =></a>
+                    <img src="./img/projects/memCardGame/Game_preview.png" alt="">
+                </div>
+                <div class="project">
+                    <img src="./img/projects/Snake/Capture.PNG" alt="">
+                    <p>Snake game, based on the legendary Nokia-Snake, showcasing working with grid and JavaScript</p>
+                    <a class="btn" href="#">Open Project =></a>
+                </div>
+            </div>
+        </section>
     </main>
-
     <footer>
-        <form class="contact_field" action="https://formsubmit.co/sartem.meshkov@gmail.com" method="POST">
-            <input type="text" name="name" required placeholder="Name">
-            <input type="email" name="email" required placeholder="E-Mail">
-            <textarea name="" id="" cols="30" rows="10" required></textarea>
-            <button type="submit">Send</button>
-       </form>
+        <section>
+            <div class="work">
+                <h1>Lets work?</h1>
+                <p>I'm always open to new ideas and working with a team</p>
+                <a class="btn" href="#">Start a conversation</a>
+            </div>
+            <div class="contacts">
+                <img src="./img/logo.PNG" alt="">
+                <h2>Living, learning &  leveling up <br> one day at a time</h2>
+            </div>
+        </section>
     </footer>
 </body>
 </html>

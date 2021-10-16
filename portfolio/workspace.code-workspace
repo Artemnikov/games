@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\responsive_grid"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "new_portfolio"
+  }
+}
