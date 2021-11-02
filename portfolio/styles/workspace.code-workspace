@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "C:\\xampp\\htdocs\\artem\\wp-content\\themes\\artem"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "portfolio"
+  }
+}

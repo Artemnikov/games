@@ -1,94 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script src="./scripts.js" defer></script>
+    <title>Artem's place</title>
+  </head>
+  <body>
     <header>
-            <nav class="main_nav">
-                <img src="./img/logo.PNG" alt="">
-                <ul>
-                    <li><a class="btn" href="#">Works</a></li>
-                    <li><a class="btn" href="#">Say Hello!</a></li>
-                </ul>
-            </nav>
-
+        <nav class="main_nav">
+          <img src="./img/logo.PNG" alt="" />
+          <ul>
+            <li><button class="btn" id="to_works">Works</button></li>
+            <li><button class="btn" id="to_contact">Say Hello!</button></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+      
             <section class="hero">
-                <h1>Full-Stack Developer</h1>
-                <h2>I code the Front and Back-end, and i love what i do!</h2>
-                <img src="./img/pp.jpg" alt="">
-                <img src="./img/hero.svg" alt="">
+              <h1>Full-Stack Developer</h1>
+              <h2>I code the Front and Back-end, and i love what i do!</h2>
+              <img src="./img/pp.jpg" alt="" />
+              <img src="./img/hero.svg" alt="" />
             </section>
-    </header>
-    <main>
-        <section>
-            <div class="about">
-                <h1>Hi, I'm Artem. Nice to meet you.</h1>
-                <p>Since beginning my journey as a freelance Embedded Systems programmer 3 years ago, i've switched to web development last year, i made some project for small clients with my partner. I'm quite confident and open minded, naturally curius and always looking to improve my skills.
-                </p>
+      <section>
+        <div class="about">
+          <h1>Hi, I'm Artem. Nice to meet you.</h1>
+          <p>
+            Since beginning my journey as a freelance Embedded Systems
+            programmer 3 years ago, i've switched to web development last year,
+            i made some project for small clients with my partner. I'm quite
+            confident and open minded, naturally curius and always looking to
+            improve my skills.
+          </p>
+        </div>
+
+        <div class="experties">
+          <div class="box">
+            <i class="fas fa-code fa-4x"></i>
+            <h2>Front-end</h2>
+            <p>
+              I like to code things from scratch, and enjoy bringing ideas to
+              life in the browser.
+            </p>
+            <h3>Languages i Speak:</h3>
+            <p>HTML, CSS, JavaScript</p>
+            <h3>Tools i use:</h3>
+            <ul>
+              <li>Visual Studio</li>
+              <li>React</li>
+              <li>GitHub</li>
+              <li>GitXtentions</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div class="box">
+            <i class="fas fa-server fa-4x"></i>
+            <h2>Back-End</h2>
+            <p>I enjoy bringing my works online and working with databases</p>
+            <h3>Languages i think in:</h3>
+            <ul>
+              <li>PHP</li>
+            </ul>
+              <h3>Tools i use</h3>
+              <ul>
+                <li>WordPress</li>
+              </ul>
+          </div>
+        </div>
+        <div class="projects_title" id="projects">
+          <h2>My Recent Work</h2>
+          <p>
+            Here are few Projects i've worked on. Want to see more?
+            <a href="mailto:sartem.meshkov@gmail.com">Email me</a>
+          </p>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <img src="./img/projects/memCardGame/Game_preview.png" alt="" />
+            <div>
+              <h2>Memory card game</h2>
+              <p>Simple memory game, showcasing my programming potential</p>
+              <a class="btn" href="../Projects/memoryCardGame/index.html">Open Project =></a>
             </div>
-            
-            <div class="experties">
-                <div class="box">
-                    <i class="fas fa-code fa-4x"></i>
-                    <h2>Front-end Developer</h2>
-                    <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-                    <h3>Languages I speak:</h3>
-                    <p>HTML, CSS, JavaScript</p>
-                    <h3>Dev Tools:</h3>
-                    <ul>
-                        <li>Visual Studio</li>
-                        <li>GitHub</li>
-                        <li>GitXtentions</li>
-                        <li>Figma</li>
-                    </ul>
-                </div>
-                <div class="box">
-                    <i class="fas fa-server fa-4x"></i>
-                    <h2>Back-End</h2>
-                    <p>I enjoy bringing my works online and working with databases</p>
-                    <h3>Languages i think in:</h3>
-                    <ul>
-                        <li>PHP</li>
-                        <li>JSON</li>
-                    </ul>
-                </div>
+          </div>
+          <div class="project">
+            <img src="./img/projects/Snake/Capture.PNG" alt="" />
+            <div>
+              <h2>Snake</h2>
+              <p>
+                Snake game, based on the legendary Nokia-Snake, showcasing
+                working with grid and JavaScript
+              </p>
+              <a class="btn" href="../Projects/Snake/index.html"
+                >Open Project =></a
+              >
             </div>
-            <div class="projects_title">
-                <h2>My Recent Work</h2>
-                <p>Here are few Projects i've worked on. Want to see more? <a href="mailto:sartem.meshkov@gmail.com">Email me</a></p>
-            </div>
-            <div class="projects">
-                <div class="project">
-                    <p>Simple memory game, showcasing my programming potential</p>
-                    <a class="btn" href="#">Open Project =></a>
-                    <img src="./img/projects/memCardGame/Game_preview.png" alt="">
-                </div>
-                <div class="project">
-                    <img src="./img/projects/Snake/Capture.PNG" alt="">
-                    <p>Snake game, based on the legendary Nokia-Snake, showcasing working with grid and JavaScript</p>
-                    <a class="btn" href="#">Open Project =></a>
-                </div>
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <section>
-            <div class="work">
-                <h1>Lets work?</h1>
-                <p>I'm always open to new ideas and working with a team</p>
-                <a class="btn" href="#">Start a conversation</a>
-            </div>
-            <div class="contacts">
-                <img src="./img/logo.PNG" alt="">
-                <h2>Living, learning &  leveling up <br> one day at a time</h2>
-            </div>
-        </section>
+      <section>
+        <div class="work" id="contact_froms">
+          <h1>Lets work?</h1>
+          <p>I'm always open to new ideas and working with a team</p>
+          <a class="btn" href="#">Start a conversation</a>
+        </div>
+
+        <form action="https://formsubmit.co/sartem.meshkov@gmail.com" method="POST" >
+          <input type="hidden" name="_subject" value="New email!" />
+          <input type="hidden" name="_next" value="Artem-meskov.il/pages/thankyou!.html" />
+          <input type="email" name="email" placeholder="Email Address" required />
+          <textarea class="text" type="text" name="name" cols="30" rows="10" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+
+        <img src="./img/logo.PNG" alt="" />
+        <h2>
+          Living, learning & leveling up <br />
+          one day at a time
+        </h2>
+        <nav class="links">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/artem-meshkov-3186401a5/"
+                ><i class="fab fa-linkedin-in fa-2x"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:sartem.meshkov@gmail.com"
+                ><i class="far fa-envelope fa-2x"></i
+              ></a>
+            </li>
+            <li>
+              <a href="tel:+972508147511"><i class="fas fa-phone fa-2x"></i></a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#"><i class="far fa-arrow-alt-circle-up fa-4x back_to_top"></i></a>
+      </section>
     </footer>
-</body>
+  </body>
 </html>
