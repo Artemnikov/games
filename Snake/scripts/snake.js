@@ -4,8 +4,15 @@ export let snakeSpeed = 5;
 const snakeBody = [
     {x: 11, y: 11},
 ]
+let flag = 0
 
 export function update (gameBoard) {
+    if(snakeBody[0].x < 1 || snakeBody[0].x > 21 || snakeBody[0].y < 1 || snakeBody[0].y > 21){
+        flag ++
+        if( flag == 1 )
+        document.location.reload(true);
+        return
+    }
     const inputDirection = getInputDirection()
     for(let i = snakeBody.length - 2; i >= 0; i--){
         snakeBody[i + 1] = {...snakeBody[i]}
@@ -20,8 +27,6 @@ export function update (gameBoard) {
         if ( snakeBody[0].x == snakeBody[i].x && snakeBody[0].y == snakeBody[i].y )
         window.location.reload();
     }
-    if(snakeBody[0].x < 1 || snakeBody[0].x > 21 || snakeBody[0].y < 1 || snakeBody[0].y > 21)
-    window.location.reload();
 }
 
 export function drawSnake (gameBoard) {
