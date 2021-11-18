@@ -14,8 +14,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
 
-  <script src="/scripts/scripts.js" defer></script>
-  <script src="/scripts/hamburger.js" defer></script>
+  <script src="/scripts/scripts.js" defer type="module"></script>
+  <script src="/scripts/hamburger.js" defer type="module"></script>
+  <script src="/scripts/projectData.js" defer type="module"></script>
   <title>Artem's place</title>
 </head>
 
@@ -26,11 +27,11 @@
     <button class="to_about">About</button>
   </nav>
   <header>
-    <img src="./img/logo.PNG" alt="" />
+    <a href="/"> <img src="./img/logo.PNG" alt="" /> </a>
     <nav class="nav_bar">
+      <button class="btn to_about">About</button>
       <button class="btn to_works">projects</button>
       <button class="btn to_contact">Say Hello</button>
-      <button class="btn to_about">About</button>
     </nav>
     <button class="hamburger">
       <div class="bar"></div>
@@ -92,20 +93,22 @@
           </ul>
         </div>
     </section>
-    <section>
-      <div class="projects_title">
-        <h2>My Recent Work</h2>
-        <p>
-          Here are few Projects i've worked on. Want to see more?
-          <a href="mailto:sartem.meshkov@gmail.com">Email me</a>
-        </p>
-      </div>
+    <div class="projects_title">
+      <h2>My Recent Work</h2>
+      <p>
+        Here are few Projects i've worked on. Want to see more?
+        <a href="mailto:sartem.meshkov@gmail.com">Email me</a>
+      </p>
+    </div>
+    <section class="projects_container">
+
       <div class="projects">
         <div class="project">
           <img src="./img/projects/memCardGame/Game_preview.png" alt="" />
           <div>
             <h2>Memory card game</h2>
             <p>Simple memory game, showcasing my programming potential</p>
+            <button class="btn project_btn">Learn more =></button>
             <a class="btn" href="memoryCardGame/">Open Project =></a>
           </div>
         </div>
@@ -118,6 +121,7 @@
               Snake game, based on the legendary Nokia-Snake, showcasing
               working with grid and JavaScript
             </p>
+            <button class="btn">Learn more =></button>
             <a class="btn" href="snake">Open Project =></a>
           </div>
         </div>
@@ -129,9 +133,11 @@
             <p>
               Weather web application based on using api to fetch data from another server.
             </p>
+            <button class="btn project_btn">Learn more =></button>
             <a class="btn" href="weatherApp">Open Project =></a>
           </div>
         </div>
+
         <div class="project">
           <img src="./img/projects/landing1/preview.PNG" alt="" />
           <div>
@@ -139,9 +145,15 @@
             <p>
               Grid based landing page using third-party random immages.
             </p>
+            <button class="btn">Learn more =></button>
             <a class="btn" href="landing1">Open Project =></a>
           </div>
         </div>
+      </div>
+      <div class="project_dis">
+        <h1></h1>
+        <p></p>
+        <code></code>
       </div>
     </section>
   </main>

@@ -1,11 +1,5 @@
-window.addEventListener('pageshow', myFunction);
-function myFunction(event) { 
-    if (event.persisted) {
-      window.location.reload(true)
-    } 
-}
-
 // input form
+
 let form_name = document.getElementById("form_name")
 let form_email = document.getElementById("form_mail")
 const testmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
@@ -15,15 +9,15 @@ document.getElementById('form_btn').addEventListener('click', (e) => {
     let form_text = document.getElementById("form_text")
     let data = new FormData()
 
-    if( !form_email.value.match(testmail )) {
+    if (!form_email.value.match(testmail)) {
         form_email.style.outline = '6px solid red'
         form_email.setAttribute('placeholder', 'I need your email !');
-    } 
-    if( form_name.value == '' ) {
+    }
+    if (form_name.value == '') {
         form_name.style.outline = '6px solid red'
         form_name.setAttribute('placeholder', 'Shall i call you Bob?')
     }
-    if( !form_email.value.match(testmail) || form_name.value == '' ) return
+    if (!form_email.value.match(testmail) || form_name.value == '') return
 
     data.append("name", form_name.value)
     data.append("email", form_email.value)
@@ -40,48 +34,58 @@ document.getElementById('form_btn').addEventListener('click', (e) => {
         form_name.setAttribute('placeholder', '')
         form_email.setAttribute('placeholder', '')
         console.log('message sent');
-        
+
     }
     xhr.send(data)
 })
 
-if(form_name != '' && form_email != ''){
-[form_name, form_email].forEach((el) => {
-    el.addEventListener('input', () => {
-        el.style.outline = 'none'
+if (form_name != '' && form_email != '') {
+    [form_name, form_email].forEach((el) => {
+        el.addEventListener('input', () => {
+            el.style.outline = 'none'
+        })
     })
-})}
+}
 
-// scroll
+// navigation 
 
-let projectsDiv = document.querySelector('.projects')
-let contactDiv = document.querySelector('footer')
-let topOfPage = document.querySelector('header')
-
-Array.from(document.getElementsByClassName('to_works')).forEach(btn => {
-    btn.addEventListener('click', () => {
+const toContact = Array.from(document.getElementsByClassName('to_contact'))
+toContact.forEach((element, index) => {
+    element.addEventListener('click', () => {
+        if (index == 0) toggleSidebar()
         window.scroll({
-            top : projectsDiv.offsetTop-200,
-            behavior :'smooth'
+            top: document.querySelector('footer').offsetTop,
+            behavior: 'smooth'
+        })
+    })
+});
+
+const toProjects = Array.from(document.getElementsByClassName('to_works'))
+toProjects.forEach((element, index) => {
+    element.addEventListener('click', () => {
+        if (index == 0) toggleSidebar()
+        window.scroll({
+            top: document.getElementsByClassName('projects')[0].offsetTop - 300,
+            behavior: 'smooth'
         })
     })
 })
 
-Array.from(document.getElementsByClassName('to_contact')).forEach(btn => {
-    btn.addEventListener('click', () => {
+const toAbout = Array.from(document.getElementsByClassName('to_about'))
+toAbout.forEach((element, index) => {
+    element.addEventListener('click', () => {
+        if (index === 0) toggleSidebar()
         window.scroll({
-            top : contactDiv.offsetTop,
-            behavior :'smooth'
+            top: document.getElementsByClassName('about')[0].offsetTop - 150,
+            behavior: 'smooth'
         })
     })
 })
 
-Array.from(document.getElementsByClassName('to_contact')).forEach(btn => {
-    btn.addEventListener('click', () => {
-        window.scroll ({
-            top: 0,
-            behavior : 'smooth'
-        })
+document.getElementsByClassName('back_to_top')[0].addEventListener('click', () => {
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
     })
 })
 
@@ -94,7 +98,32 @@ fetch('https://api.countapi.xyz/update/artemishkov/?amount=1')
     })
     .catch(data => console.log('nope'))
 
-// get user location
+// start project animation 
 
-fetch("https://api.ipify.org?format=json")
-    .then(response => response.json())
+import { h1, project_p } from './projectData.js'
+
+const project_btn = document.getElementsByClassName('project_btn')[0]
+const project_disc = שדגdocument.getElementsByClassName('project_dis')[0]
+const projects = document.getElementsByClassName('projects')[0]
+const project = Array.from(document.getElementsByClassName('project'))
+
+project_btn.addEventListener('click', projectAnimations)
+
+function projectAnimations() {
+    for (let i = 0; i < project.length; i++) {
+        if (event.target.parentNode == project[i].childNodes[3]) {
+            project_disc.childNodes[1].innerHTML = h1()[i]
+            project_disc.childNodes[3].innerHTML = project_p()
+        }
+    }
+
+    project.forEach((element) => {
+        element.classList.toggle('sort_project')
+    })
+
+
+    setTimeout(() => {
+        project_disc.classList.toggle('project_slide')
+        projects.classList.toggle('sort_colum')
+    }, 250);
+}
