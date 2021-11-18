@@ -100,27 +100,41 @@ fetch('https://api.countapi.xyz/update/artemishkov/?amount=1')
 
 // start project animation 
 
-import { h1, project_p } from './projectData.js'
+import { h1 } from './projectData.js'
 
 const project_btn = document.getElementsByClassName('project_btn')[0]
-const project_disc = שדגdocument.getElementsByClassName('project_dis')[0]
+const project_disc = document.getElementsByClassName('project_dis')[0]
 const projects = document.getElementsByClassName('projects')[0]
 const project = Array.from(document.getElementsByClassName('project'))
 
 project_btn.addEventListener('click', projectAnimations)
 
 function projectAnimations() {
-    for (let i = 0; i < project.length; i++) {
-        if (event.target.parentNode == project[i].childNodes[3]) {
-            project_disc.childNodes[1].innerHTML = h1()[i]
-            project_disc.childNodes[3].innerHTML = project_p()
-        }
-    }
 
     project.forEach((element) => {
         element.classList.toggle('sort_project')
     })
 
+    for (let i = 0; i < project.length; i++) {
+        if (event.target.parentNode == project[i].childNodes[3]) {
+            project_disc.childNodes[1].innerHTML = h1()[i]
+            fetch('../text/mem_card_p.txt')
+                .then((response) => {
+                    return response.text()
+                })
+                .then((text) => {
+                    project_disc.childNodes[3].innerHTML = text
+                })
+            fetch(`../text/mem_card_code.txt`)
+                .then((response) => {
+                    return response.text()
+                })
+                .then((text) => {
+                    console.log(text)
+                    project_disc.childNodes[5].innerHTML = text
+                })
+        }
+    }
 
     setTimeout(() => {
         project_disc.classList.toggle('project_slide')

@@ -1,18 +1,20 @@
 const projects = Array.from(document.getElementsByClassName('project'))
-
 export function h1() {
     let headlines = getHeadline(projects)
     return headlines
 }
-
 export function project_p() {
+    let p = 'test'
     fetch('../text/mem_card_p.txt')
         .then((response) => {
             return response.text()
         })
         .then((text) => {
-            console.log(text)a
+            p = text
         })
+    setTimeout(() => {
+        return p
+    }, 200);
 }
 
 function getHeadline(projects) {
