@@ -1,5 +1,12 @@
-// input form
+import { toggleSidebar } from './hamburger.js'
+window.addEventListener('pageshow', myFunction);
+function myFunction(event) {
+    if (event.persisted) {
+        window.location.reload(true)
+    }
+}
 
+// input form
 let form_name = document.getElementById("form_name")
 let form_email = document.getElementById("form_mail")
 const testmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
@@ -48,6 +55,7 @@ if (form_name != '' && form_email != '') {
 }
 
 // navigation 
+
 
 const toContact = Array.from(document.getElementsByClassName('to_contact'))
 toContact.forEach((element, index) => {
@@ -98,46 +106,7 @@ fetch('https://api.countapi.xyz/update/artemishkov/?amount=1')
     })
     .catch(data => console.log('nope'))
 
-// start project animation 
+// get user location
 
-import { h1 } from './projectData.js'
-
-const project_btn = document.getElementsByClassName('project_btn')[0]
-const project_disc = document.getElementsByClassName('project_dis')[0]
-const projects = document.getElementsByClassName('projects')[0]
-const project = Array.from(document.getElementsByClassName('project'))
-
-project_btn.addEventListener('click', projectAnimations)
-
-function projectAnimations() {
-
-    project.forEach((element) => {
-        element.classList.toggle('sort_project')
-    })
-
-    for (let i = 0; i < project.length; i++) {
-        if (event.target.parentNode == project[i].childNodes[3]) {
-            project_disc.childNodes[1].innerHTML = h1()[i]
-            fetch('../text/mem_card_p.txt')
-                .then((response) => {
-                    return response.text()
-                })
-                .then((text) => {
-                    project_disc.childNodes[3].innerHTML = text
-                })
-            fetch(`../text/mem_card_code.txt`)
-                .then((response) => {
-                    return response.text()
-                })
-                .then((text) => {
-                    console.log(text)
-                    project_disc.childNodes[5].innerHTML = text
-                })
-        }
-    }
-
-    setTimeout(() => {
-        project_disc.classList.toggle('project_slide')
-        projects.classList.toggle('sort_colum')
-    }, 250);
-}
+fetch("https://api.ipify.org?format=json")
+    .then(response => response.json())

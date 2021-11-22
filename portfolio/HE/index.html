@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="../img/logo.PNG">
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/mobile_nav.css" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <script src="../scripts/scripts.js" defer type="module"></script>
+    <script src="../scripts/hamburger.js" defer type="module"></script>
+    <title>המקום של ארטיום</title>
+</head>
+
+<body>
+    <nav class="mobile_nav">
+        <button class="to_about">על אודות</button>
+        <button class="to_works">פרוייקטים</button>
+        <button class="to_contact">תגיד שלום</button>
+    </nav>
+    <header>
+        <a href="/"> <img src="../img/logo.PNG" alt="" /> </a>
+        <nav class="nav_bar">
+            <button class="btn to_about">על אודות</button>
+            <button class="btn to_works">פרוייקטים</button>
+            <button class="btn to_contact">תגיד שלום</button>
+        </nav>
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+    </header>
+
+
+    <main>
+        <section class="hero">
+            <h1>Front-End מפתח</h1>
+            <h2>!אני מפתח קוד למשתמש קצה, ואני אוהב מה שאני עושה</h2>
+            <img src="../img/profilepicture.jpg" alt="" />
+            <div class="language_wrapper">
+                <p>Hello</p>
+                <p>Привет</p>
+                <p>שלום</p>
+            </div>
+            <select id="languages"
+                onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value)">
+                <option>בחר שפה</option>
+                <option value="../">English</option>
+                <option value="../RU">Русский</option>
+            </select>
+
+            <img class="hero_svg" src="../img/hero.svg" alt="" />
+        </section>
+
+        <section>
+            <div class="about">
+                <h2>.היי. אני ארטיום. נעים להכיר אותך</h2>
+                <p>
+                    מאז שהתחלתי את דרכי כמתכנת מערכות משובצות עצמאיות לפני 3 שנים, עברתי לפיתוח אתרים בשנה שעברה, עשיתי
+                    כמה פרויקטים קטנים המציגים את המיומנות שלי. אני די בטוח ביכולתי לפתור בעיות ובראש פתוח, סקרן באופן
+                    טבעי ותמיד מחפש לשפר את הכישורים שלי
+                </p>
+            </div>
+            <div class="experties">
+                <div class="box">
+                    <i class="fas fa-code fa-4x"></i>
+                    <h2>חזיתי</h2>
+                    <p>
+                        אני אוהב לקודד דברים מאפס, ונהנה להביא רעיונות לחיים בדפדפן
+                    </p>
+                    <h3>:שפות שאני דובר</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <h3>:כלים שאני משתמש</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>GitHub</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <i class="fas fa-server fa-4x"></i>
+                    <h2>צד שרת</h2>
+                    <p>אני נהנה להביא את העבודות שלי לאינטרנט ולעבוד עם מסדי נתונים</p>
+                    <h3>שפות שאני חושב בהן</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Javascript</li>
+                    </ul>
+                    <h3>:כלים שאני משתמש</h3>
+                    <ul>
+                        <li>JSON server</li>
+                        <li>WordPress</li>
+                        <li>MySql</li>
+                    </ul>
+                </div>
+        </section>
+        <section>
+            <div class="projects_title">
+                <h2>העבודה האחרונה שלי</h2>
+                <p>
+                    הנה כמה פרויקטים שעבדתי עליהם. רוצה לראות עוד?
+                    <a href="mailto:sartem.meshkov@gmail.com">שלח לי מייל</a>
+                </p>
+            </div>
+            <div class="projects">
+                <div class="project">
+                    <img src="../img/projects/memCardGame/Game_preview.png" alt="" />
+                    <div>
+                        <h2>משחק כרטיסי זיכרון</h2>
+                        <p>משחק זיכרון פשוט, שפותח בצוות כבחינה של כישורי ניהול הצוות והתכנות שלנו
+
+                        </p>
+                        <a class="btn" href="memoryCardGame/"> Открыть проэкт =></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="../img/projects/snake/preview.PNG" alt="" />
+                    <div>
+                        <h2>נָחָשׁ</h2>
+                        <p>
+                            משחק נחש שפותח על קאנבאס ן גריד
+                        </p>
+                        <a class="btn" href="snake">
+                            <= פתח את הפרוייקט </a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="../img/projects/weatherApp/preview.PNG" alt="" />
+                    <div>
+                        <h2>אפליקציית מזג אוויר</h2>
+                        <p>
+                            אפליקציית רשת מזג אוויר המבוססת על שימוש ב-API כדי להביא נתונים משרת אחר.
+                        </p>
+                        <a class="btn" href="weatherApp">
+                            <= פתח את הפרוייקט</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="../img/projects/landing1/preview.PNG" alt="" />
+                    <div>
+                        <h2>דף נחיתה</h2>
+                        <p>
+                            אמיתי. נוצר באמצעות HTML CSS ו-
+                        </p>
+                        <a class="btn" href="landing1">
+                            <= פתח את הפרוייקט</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="../img/projects/gainguard/welcome.jpg" alt="">
+                    <div>
+                        <h2>GainGuard</h2>
+                        <p>
+                            דף נחיתה לחברת סטארטאפ. פותח באמצעות HTML CSS JavaScript. הפרויקט הזה עדיין לא הסתיים.
+
+
+                        </p>
+                        <a class="btn" href="https://gainguard.io/">
+                            <= פתח את הפרוייקט</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="work" id="contact_froms">
+            <h1>?בוא נעבוד</h1>
+            <p>אני תמיד פתוח לרעיונות חדשים ולעבוד עם צוות
+            </p>
+            <a class="btn" href="https://wa.me/+972508147511">התחל שיחה</a>
+        </div>
+
+        <div class="contact_space">
+            <form id="contact_form" method="POST">
+                <h2 class="thank_you_h hide">Thank you. I got your mail!</h2>
+                <input id="form_name" type="text" name="name" placeholder="שם">
+                <input id="form_mail" type="email" name="email" placeholder="אימייל">
+                <textarea id="form_text" name="text" cols="30" rows="5" placeholder="תן למוח שלך לדבר"></textarea>
+                <button id="form_btn">שלח</button>
+            </form>
+
+            <div class="center">
+                <h2>לחיות, ללמוד ולהתקדם <br />יום אחד בכל פעם</h2>
+                <nav class="links">
+
+                    <h2>הטלפון/מייל האישי שלי</h2>
+                    <a href="mailto:sartem.meshkov@gmail.com"><i class="far fa-envelope fa-1x"></i></a>
+                    <a href="tel:+972508147511"><i class="fas fa-phone fa-1x"></i></a>
+                </nav>
+                <a href="./php/קורות חיים ארטיום משקוב.docx" download rel="noopener noreferrer" target="_blank">
+                    <p>הורד קורות חיים</p>
+                </a>
+            </div>
+
+            <nav class=" right links">
+                <h2>עקבו אחריי ברשתות החברתיות</h2>
+                <a href="https://www.linkedin.com/in/artem-meshkov-3186401a5/"><i
+                        class="fab fa-linkedin-in fa-2x"></i></a>
+                <a href="https://www.facebook.com/mashkov.artem.9"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://github.com/Artemnikov"><i class="fab fa-github fa-2x"></i></a>
+            </nav>
+        </div>
+        <button class="back_to_top"><i class="far fa-arrow-alt-circle-up fa-4x"></i></button>
+    </footer>
+</body>
+
+</html>

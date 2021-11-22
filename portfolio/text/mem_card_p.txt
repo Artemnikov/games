@@ -1,1 +1,0 @@
-This project was built by 3 members including me, we used basic overall styling and svg files. This game is a one page game with transtitions to levels with display none as the main transition. we picked free SVG's and pictures, we built the architecture of the project and went by it step by step.

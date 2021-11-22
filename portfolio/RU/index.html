@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="../img/logo.PNG">
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/mobile_nav.css" />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <script src="../scripts/scripts.js" defer type="module"></script>
+    <script src="../scripts/hamburger.js" defer type="module"></script>
+    <title>Местечко Артёма</title>
+</head>
+
+<body>
+    <nav class="mobile_nav">
+        <button class="to_about">Про Меня</button>
+        <button class="to_works">Проэкты</button>
+        <button class="to_contact">Скажи Привет</button>
+    </nav>
+    <header>
+        <a href="/"> <img src="../img/logo.PNG" alt="" /> </a>
+        <nav class="nav_bar">
+            <button class="btn to_about">Про Меня</button>
+            <button class="btn to_works">Проэкты</button>
+            <button class="btn to_contact">Скажи Привет</button>
+        </nav>
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+    </header>
+
+
+    <main>
+        <section class="hero">
+            <h1>Front-End разработчик</h1>
+            <h2>Я пишу код для браузера, и мне нравится то, что я делаю!</h2>
+            <img src="../img/profilepicture.jpg" alt="" />
+            <div class="language_wrapper">
+                <p>Привет</p>
+                <p>Hello</p>
+                <p>שלום</p>
+            </div>
+            <select id="languages"
+                onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value)">
+                <option>Выбери язык</option>
+                <option value="../">English</option>
+                <option value="../HE">עברית</option>
+            </select>
+            <img class="hero_svg" src="../img/hero.svg" alt="" />
+        </section>
+
+        <section>
+            <div class="about">
+                <h2>Привет, я Артем. Рад встрече.</h2>
+                <p>
+                    С тех пор как я начал свой путь в качестве системного програмиста встраиваемых систем 3 года назад,
+                    в прошлом году я перешел на веб-разработку и сделал несколько небольших проектов, демонстрирующих
+                    свои навыки. Я вполне уверен в своей способности решать проблемы и открыт к новым идеям, естественно
+                    любопытен и всегда стремлюсь улучшить свои навыки.
+                </p>
+            </div>
+            <div class="experties">
+                <div class="box">
+                    <i class="fas fa-code fa-4x"></i>
+                    <h2>Внешний интерфейс</h2>
+                    <p>
+                        Я пишу вещи с нуля, и мне нравится воплощать идеи в жизнь в браузере.
+                    </p>
+                    <h3>Языки, на которых я говорю:</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <h3>Инструменты, которые я использую:</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>Angular</li>
+                        <li>GitHub</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <i class="fas fa-server fa-4x"></i>
+                    <h2>Сервер</h2>
+                    <p>Я работаю с базой данных которые я сам пишу</p>
+                    <h3>Языки на которых я думаю:</h3>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Javascript</li>
+                    </ul>
+                    <h3>Инструменты, которые я использую:</h3>
+                    <ul>
+                        <li>JSON server</li>
+                        <li>WordPress</li>
+                        <li>MySql</li>
+                    </ul>
+                </div>
+        </section>
+        <section>
+            <div class="projects_title">
+                <h2>мои проекты</h2>
+                <p>
+                    Вот несколько проектов, над которыми я работал. Хочу увидеть больше?
+                    <a href="mailto:sartem.meshkov@gmail.com">Напишите мне</a>
+                </p>
+            </div>
+            <div class="projects">
+                <div class="project">
+                    <img src="../img/projects/memCardGame/Game_preview.png" alt="" />
+                    <div>
+                        <h2>Карточная игра памяти</h2>
+                        <p>разработанная в команде для экзамена на навыки работы в команде и программирования.</p>
+                        <a class="btn" href="memoryCardGame/"> Открыть проэкт =></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="../img/projects/snake/preview.PNG" alt="" />
+                    <div>
+                        <h2>Змея</h2>
+                        <p>
+                            разработанный с использованием HTML Canvas, CSS Grid и старого доброго JavaScript.
+                        </p>
+                        <a class="btn" href="snake"> Открыть проэкт =></a>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="../img/projects/weatherApp/preview.PNG" alt="" />
+                    <div>
+                        <h2>Приложения погоды</h2>
+                        <p>
+                            Веб-приложение погоды, основанное на использовании API для получения данных с другого
+                            сервера.
+                        </p>
+                        <a class="btn" href="weatherApp"> Открыть проэкт =></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="../img/projects/landing1/preview.PNG" alt="" />
+                    <div>
+                        <h2>Целевая страница</h2>
+                        <p>
+                            Поддельный сайт целевой страницы, просто шаблон для реального проекта. Создано с
+                            использованием HTML, CSS и JavaScript.
+                        </p>
+                        <a class="btn" href="landing1"> Открыть проэкт =></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="../img/projects/gainguard/welcome.jpg" alt="">
+                    <div>
+                        <h2>GainGuard</h2>
+                        <p>
+                            Целевая страница для стартап-компании. Разработано с использованием HTML CSS JavaScript.
+                            Этот проект еще не завершен.
+                        </p>
+                        <a class="btn" href="https://gainguard.io/"> Открыть проэкт =></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="work" id="contact_froms">
+            <h1>Давай работать?</h1>
+            <p>Я всегда открыт для новых идей и работаю с командой</p>
+            <a class="btn" href="https://wa.me/+972508147511">Начать разговор</a>
+        </div>
+
+        <div class="contact_space">
+            <form id="contact_form" method="POST">
+                <h2 class="thank_you_h hide">Thank you. I got your mail!</h2>
+                <input id="form_name" type="text" name="name" placeholder="Имя">
+                <input id="form_mail" type="email" name="email" placeholder="Почта">
+                <textarea id="form_text" name="text" cols="30" rows="5"
+                    placeholder="Пусть говорит ваше воображение"></textarea>
+                <button id="form_btn">Отправить</button>
+            </form>
+
+            <div class="center">
+                <h2>Жизнь, обучение и повышение уровня <br />день за днем</h2>
+                <nav class="links">
+
+                    <h2>Мой личный телефон / электронная почта</h2>
+                    <a href="mailto:sartem.meshkov@gmail.com"><i class="far fa-envelope fa-1x"></i></a>
+                    <a href="tel:+972508147511"><i class="fas fa-phone fa-1x"></i></a>
+                </nav>
+                <a href="./php/קורות חיים ארטיום משקוב.docx" download rel="noopener noreferrer" target="_blank">
+                    <p>Скачать резюме</p>
+                </a>
+            </div>
+
+            <nav class=" right links">
+                <h2>Следуй за мной в социальных сетях
+                </h2>
+                <a href="https://www.linkedin.com/in/artem-meshkov-3186401a5/"><i
+                        class="fab fa-linkedin-in fa-2x"></i></a>
+                <a href="https://www.facebook.com/mashkov.artem.9"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://github.com/Artemnikov"><i class="fab fa-github fa-2x"></i></a>
+            </nav>
+        </div>
+        <button class="back_to_top"><i class="far fa-arrow-alt-circle-up fa-4x"></i></button>
+    </footer>
+</body>
+
+</html>
