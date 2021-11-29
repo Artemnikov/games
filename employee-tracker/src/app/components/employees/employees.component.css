@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  margin: 0.2em;
+  border-radius: 0.5em;
+}
+
+.employee_container {
+  width: max-content;
+  margin: 20vh auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.employees {
+  text-align: center;
+  border: 2px solid black;
+}
+
+.employees th {
+  border-bottom: 1px solid black;
+}
+
+.employees td, .employees th {
+  border-left: 1px solid black;
+  padding: 0.8em 1.5em;
+}
+
+.selected {
+  background-color: blue;
+  color: white;
+}
+
+.selected input {
+  font-size: 2rem;
+}
+
+.selectedEmployee input {
+  font-size: 1.2rem;
+}

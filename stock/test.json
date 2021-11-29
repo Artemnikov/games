@@ -1,0 +1,1781 @@
+[
+    {
+        "title": "Forex",
+        "description": "Discuss all currency pairs",
+        "shortTitle": "Forex",
+        "room_id": "general",
+        "is_default": true,
+        "pinned": true,
+        "users_online": 0,
+        "msgs_days": 3092,
+        "msgs_total": 11265647,
+        "msgs_today": 326,
+        "msgs_average": 3643,
+        "msgs_last_ts": "1637663914",
+        "msgs_last_text": "wavewrangler47: Phone I have is too controlling as it is! Edible phone though, I like it."
+    },
+    {
+        "title": "Stocks & Indexes",
+        "description": "Debate public stocks and indexes",
+        "shortTitle": "Stock",
+        "room_id": "stock",
+        "pinned": true,
+        "users_online": 0,
+        "msgs_days": 3092,
+        "msgs_total": 8827881,
+        "msgs_today": 759,
+        "msgs_average": 2855,
+        "msgs_last_ts": "1637663906",
+        "msgs_last_text": "nakedtraitor: [quote=\"lemonaddy8\"]Damn the crypto chat is so toxic\nThis is a godsend in comparison[/quote]\nThey are weirdos"
+    },
+    {
+        "title": "Cryptocurrencies",
+        "description": "Talk about all cryptocurrencies",
+        "shortTitle": "Crypto",
+        "room_id": "bitcoin",
+        "pinned": true,
+        "users_online": 0,
+        "msgs_days": 3089,
+        "msgs_total": 30725472,
+        "msgs_today": 3592,
+        "msgs_average": 9947,
+        "msgs_last_ts": "1637663992",
+        "msgs_last_text": "SpuntRader: proton > xrp"
+    },
+    {
+        "id": 4809,
+        "created": 1632332461.253166,
+        "room_id": "bs8gzHKsLq2izuca",
+        "title": "Africa Traders Chat",
+        "description": "To accommodate traders in Africa, including the JSE Stock Exchange and more.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 244752,
+        "users_online": false,
+        "msgs_days": 72,
+        "msgs_total": 56,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637635696",
+        "msgs_last_text": "pete002: [quote=\"pete002\"]dollar rand perking up from a poss. inv h+s type pattern https://www.tradingview.com/x/vOC6cFRM/[/quote]"
+    },
+    {
+        "id": 604,
+        "created": 1516826159.591899,
+        "room_id": "OChp2kucHixrW1Vt",
+        "title": "Agricultural Commodities",
+        "description": "Cocoa, Coffee, Sugar, Soybeans, Corn, Rice, Wheat",
+        "misc": null,
+        "user_id": 130916,
+        "users_online": false,
+        "msgs_days": 2374,
+        "msgs_total": 6294,
+        "msgs_today": 0,
+        "msgs_average": 3,
+        "msgs_last_ts": "1636455023",
+        "msgs_last_text": "athrive21: \\"
+    },
+    {
+        "id": 3454,
+        "created": 1631907401.233167,
+        "room_id": "WCOYvOuoGoODCw3K",
+        "title": "All Precious Metals",
+        "description": "Precious metal markets from gold and silver. Other metals are welcome.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 3100550,
+        "users_online": false,
+        "msgs_days": 665,
+        "msgs_total": 1134,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637587050",
+        "msgs_last_text": "bizmark: JPM criminals got caught rigging the markets once again. No arrests. Business as usual 🤦‍♂️"
+    },
+    {
+        "id": 1703,
+        "created": 1634154219.175343,
+        "room_id": "CFkAMhp4Enn38nBZ",
+        "title": "Altcoins Trading Chat",
+        "description": "Altcoins trading discussion and chat. Only Altcoins please!",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 194293,
+        "users_online": false,
+        "msgs_days": 1689,
+        "msgs_total": 1690,
+        "msgs_today": 2,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637654468",
+        "msgs_last_text": "amirsediq: https://www.tradingview.com/chart/AXSUSDT/ZqP1MW1J-AXS/"
+    },
+    {
+        "id": 4588,
+        "created": 1631903834.37014,
+        "room_id": "baOalk2nTesQcxxN",
+        "title": "AMC and GME",
+        "description": "Talk AMC and GME, short squeezes, trades, and what's coming next.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 10016164,
+        "users_online": false,
+        "msgs_days": 181,
+        "msgs_total": 396,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637606228",
+        "msgs_last_text": "JustinRietveld: gme pulling back after earnings tomorrow?"
+    },
+    {
+        "id": 4872,
+        "created": 1634566038.571405,
+        "room_id": "O3IS30v8etsk9XuI",
+        "title": "AMC Only Chat",
+        "description": "AMC Discussion. No other meme stocks allowed!",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 23346263,
+        "users_online": false,
+        "msgs_days": 38,
+        "msgs_total": 7,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637295111",
+        "msgs_last_text": "nmvmi2007: FUD spewer"
+    },
+    {
+        "id": 29,
+        "created": 1398995314.192732,
+        "room_id": "Hek0gmnZRpR5tClu",
+        "title": "Andrews' Pitchfork Traders",
+        "description": "To share ideas and learn how to use Andrews' Pitchfork Tool",
+        "misc": null,
+        "user_id": 85962,
+        "users_online": false,
+        "msgs_days": 2763,
+        "msgs_total": 3633,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637538274",
+        "msgs_last_text": "kapital: "
+    },
+    {
+        "id": 1249,
+        "created": 1632331923.414644,
+        "room_id": "dAkuSLzlBFz81SRK",
+        "title": "Apple Chat - AAPL",
+        "description": "A place to talk about Apple, trades, ideas, new products and future earnings reports.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 374377,
+        "users_online": false,
+        "msgs_days": 2108,
+        "msgs_total": 4820,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1636394265",
+        "msgs_last_text": "zer0trade: .."
+    },
+    {
+        "id": 3733,
+        "created": 1632263912.596307,
+        "room_id": "dWTc4vIi3Yw5mM1T",
+        "title": "Asia Trading Chat",
+        "description": "Those who trade on indexes only. Globally. All indexes can be discussed here.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 5989561,
+        "users_online": false,
+        "msgs_days": 551,
+        "msgs_total": 2961,
+        "msgs_today": 0,
+        "msgs_average": 5,
+        "msgs_last_ts": "1637602805",
+        "msgs_last_text": "amirsediq: https://www.tradingview.com/chart/AXSUSDT/CajZjWp3-Axie-Infinity-on-fire-again/"
+    },
+    {
+        "id": 2677,
+        "created": 1539621992.689647,
+        "room_id": "dUNSIEgEFpcPQab5",
+        "title": "Astrology, Cycles & Gann Trading",
+        "description": "Discussions about Astrology applied to the financial markets, cycles, pivot dates and W.D. Gann techniques.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 45684,
+        "users_online": false,
+        "msgs_days": 1135,
+        "msgs_total": 2913,
+        "msgs_today": 0,
+        "msgs_average": 3,
+        "msgs_last_ts": "1637572467",
+        "msgs_last_text": "amirsediq: https://www.tradingview.com/chart/RUNEUSDT/F8WzPiXO-RUNE-RUNNIN/"
+    },
+    {
+        "id": 4979,
+        "created": 1637172337.079473,
+        "room_id": "9DbyvsMizkfiNiJ1",
+        "title": "ASX Chat & Australian Traders",
+        "description": "Discuss Australian stocks and news that is happening day to day as this seems to be the first public chat for this",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 19612809,
+        "users_online": false,
+        "msgs_days": 8,
+        "msgs_total": 4,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637172337",
+        "msgs_last_text": "scheplick: "
+    },
+    {
+        "id": 2874,
+        "created": 1631904558.027244,
+        "room_id": "BO7Z5qKbUBYFPBQD",
+        "title": "AUDUSD Chat",
+        "description": "Everything AUDUSD and only AUDUSD.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 1868819,
+        "users_online": false,
+        "msgs_days": 1027,
+        "msgs_total": 630,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637591873",
+        "msgs_last_text": "AwesomE310: 5"
+    },
+    {
+        "id": 3188,
+        "created": 1560889424.810505,
+        "room_id": "ooRJ5tSoIMuvhP6V",
+        "title": "Beginner Traders",
+        "description": "To educate and help young and motivated traders in their first approach to trading",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 1354503,
+        "users_online": false,
+        "msgs_days": 889,
+        "msgs_total": 1858,
+        "msgs_today": 5,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637650683",
+        "msgs_last_text": "dominguezcarlosm: tow V bottom parents"
+    },
+    {
+        "id": 4984,
+        "created": 1637263007.606156,
+        "room_id": "9Ka70mkDVUAvhJd3",
+        "title": "Bitcoin Bull Run",
+        "description": "Analysis",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 14486978,
+        "users_online": false,
+        "msgs_days": 5,
+        "msgs_total": 1,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637263008",
+        "msgs_last_text": "thaprotrader: Analysis"
+    },
+    {
+        "id": 1368,
+        "created": 1637172319.837807,
+        "room_id": "1nO89eozE9k3lDUA",
+        "title": "Bitcoin Chat - BTCUSD",
+        "description": "All things Bitcoin! News, charts, ideas, and more.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 73158,
+        "users_online": false,
+        "msgs_days": 2044,
+        "msgs_total": 9876,
+        "msgs_today": 0,
+        "msgs_average": 5,
+        "msgs_last_ts": "1637625088",
+        "msgs_last_text": "mrsmith808: dam coin follows raw materials so very soon its going to a new high"
+    },
+    {
+        "id": 4873,
+        "created": 1636052399.18114,
+        "room_id": "0rXl8L1Hm79OEorO",
+        "title": "BTC DCA Chat",
+        "description": "Those who dollar cost average into BTC",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 4460023,
+        "users_online": false,
+        "msgs_days": 38,
+        "msgs_total": 10,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1636052399",
+        "msgs_last_text": "scheplick: "
+    },
+    {
+        "id": 1383,
+        "created": 1632504847.622955,
+        "room_id": "kiPTCI4zDniacLot",
+        "title": "Canadian Stocks",
+        "description": "Chat about Canada, Canadian stocks, and trading in Canada.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 259594,
+        "users_online": false,
+        "msgs_days": 2018,
+        "msgs_total": 2022,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637055214",
+        "msgs_last_text": "arongroups: https://www.tradingview.com/chart/USDCAD/wZzuAEx6-USDCAD-1D/"
+    },
+    {
+        "id": 2284,
+        "created": 1632332036.58773,
+        "room_id": "3WNQS5yfa9CU1EUR",
+        "title": "Cannabis Stocks & Investing",
+        "description": "stock chat",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 1740488,
+        "users_online": false,
+        "msgs_days": 1444,
+        "msgs_total": 4577,
+        "msgs_today": 0,
+        "msgs_average": 3,
+        "msgs_last_ts": "1637635391",
+        "msgs_last_text": "mrsmith808: So buying is good for the economy too, but growing is fun ahaha"
+    },
+    {
+        "id": 4593,
+        "created": 1632331960.494476,
+        "room_id": "BObux8ixO0Iy020p",
+        "title": "Cardano - ADA",
+        "description": "Cardano chat for news, ideas, charts, and meeting new people.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 15424823,
+        "users_online": false,
+        "msgs_days": 179,
+        "msgs_total": 135,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637206852",
+        "msgs_last_text": "friscotrader: needs to be carefull massive dump keeo contunie"
+    },
+    {
+        "id": 4684,
+        "created": 1632489702.011014,
+        "room_id": "EB6LcmbJ6JV7ZcxR",
+        "title": "Chart Patterns Education/Help",
+        "description": "Technical chart trading, not interested in news or fundamentals. Patterns, Candles, Darkpools,  Market divergences, etc.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 23465,
+        "users_online": false,
+        "msgs_days": 135,
+        "msgs_total": 1407,
+        "msgs_today": 0,
+        "msgs_average": 10,
+        "msgs_last_ts": "1637522572",
+        "msgs_last_text": "drbutthole: https://www.tradingview.com/chart/SHIBUSDT/v0Dfnodp-All-Eyez-on-SHIB-Descending-triangle/"
+    },
+    {
+        "id": 4970,
+        "created": 1636725059.811125,
+        "room_id": "V6KZ77GJnjX1dqNt",
+        "title": "Commodities Futures & Indexes",
+        "description": "Trading dialoge",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 106072,
+        "users_online": false,
+        "msgs_days": 12,
+        "msgs_total": 5,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637145570",
+        "msgs_last_text": "wmforex: https://www.tradingview.com/chart/USOIL/1EJOb7mJ-USOIL-4H/"
+    },
+    {
+        "id": 5,
+        "created": 1631904461.320877,
+        "room_id": "DjPnZNEzTJELAFiR",
+        "title": "Community Powered Help",
+        "description": "Help others, ask questions, and learn more about using TradingView",
+        "misc": {},
+        "user_id": 61110,
+        "users_online": false,
+        "msgs_days": 2777,
+        "msgs_total": 3431,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637512644",
+        "msgs_last_text": "TVLiquie: How do I freeze the scale on the right side to specific values. For example for the Rate of change indicator show min value 0 and max value 20"
+    },
+    {
+        "id": 4990,
+        "created": 1637590264.088323,
+        "room_id": "UEBLcA0XazlfVf0n",
+        "title": "CroUSD Chat",
+        "description": "Discussion on Cro Token",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 22348020,
+        "users_online": false,
+        "msgs_days": 2,
+        "msgs_total": 2,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637590288",
+        "msgs_last_text": "Zann786: how far do you think cro can reach ?"
+    },
+    {
+        "id": 4862,
+        "created": 1633928605.406231,
+        "room_id": "sj5azrMlM6FcNEnV",
+        "title": "Crypto Day Trading",
+        "description": "Discuss about your day as a trader, your strategies, your advices and seek help from others when needed! Everyone is welcome",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 13351273,
+        "users_online": false,
+        "msgs_days": 44,
+        "msgs_total": 42,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1636647057",
+        "msgs_last_text": "CryptoPelkin: Do you think WXT will pump again like a few months ago?\nWith 500% in a few days"
+    },
+    {
+        "id": 4874,
+        "created": 1634566063.468612,
+        "room_id": "fwVP5jZf58XjSUbj",
+        "title": "Crypto Meetup in London!",
+        "description": "Let's meet in London on November 12 in the evening. The plan is to reunite interesting and motivated people so we might work together on crypto business projects. Sounds like a plan? We can share our ideas around a beer. Send a message in this chat if you're down.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 13351273,
+        "users_online": false,
+        "msgs_days": 37,
+        "msgs_total": 23,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1635864810",
+        "msgs_last_text": "zer0trade: ..🐸\n..👔\n🦵🦵"
+    },
+    {
+        "id": 4400,
+        "created": 1631904346.15972,
+        "room_id": "bWIZPqh0N6peHnfT",
+        "title": "Crypto Trading",
+        "description": "Crypto trade setups only. All markets, exchanges, and pairs.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 2553649,
+        "users_online": false,
+        "msgs_days": 250,
+        "msgs_total": 2238,
+        "msgs_today": 0,
+        "msgs_average": 9,
+        "msgs_last_ts": "1637572233",
+        "msgs_last_text": "amirsediq: https://www.tradingview.com/chart/BLOKUSDT/Xx2Oa4Lk-Greetings-Bloktopians/"
+    },
+    {
+        "id": 4980,
+        "created": 1637172276.757088,
+        "room_id": "2NcPSTWf7pBY0xbR",
+        "title": "Cutloss Daily Signals (Group)",
+        "description": "Cutloss Daily Signals Group chat on TradingView",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 18822448,
+        "users_online": false,
+        "msgs_days": 8,
+        "msgs_total": 15,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637330449",
+        "msgs_last_text": "cutlossking: \\in an instant everythign changes due to the seasonal Fle that they call corona!"
+    },
+    {
+        "id": 4589,
+        "created": 1622145640.153034,
+        "room_id": "YMBcw1751I9qTs06",
+        "title": "Daily Upgrades & Downgrades",
+        "description": "To Post Equity ratings changes direct from brokerage firms.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 8155118,
+        "users_online": false,
+        "msgs_days": 180,
+        "msgs_total": 445,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637585695",
+        "msgs_last_text": "joelly3d: Monday, November 22 UPGRADES\n$ADBE Atlantic Equities Price Tgt:  $600 » $820\n$ALNY Goldman Price Tgt:  $273\n$ALNY RBC Capital Mkts  Price Tgt:  $144 » $225\n$CWK Raymond James  Price Tgt:  $31\n$DV Truist  Price Tgt:  $38\n$DCT Barclays  Price Tgt:  $41\n$FMX Barclays Price Tgt:  $90\n$KIM Stifel  Price Tgt:  $25.50 » $27\n$STOK JP Morgan Price Tgt:  $41\n$TD BofA Securities   $94 » $110\n$AUY BofA Securities  Price Tgt:  $6"
+    },
+    {
+        "id": 24,
+        "created": 1403203471.615242,
+        "room_id": "E4bnOJSWcO1zDjBG",
+        "title": "DanV Charting The Waves",
+        "description": "TA of price the only arbitrar",
+        "misc": null,
+        "user_id": 10703,
+        "users_online": false,
+        "msgs_days": 2768,
+        "msgs_total": 9061,
+        "msgs_today": 0,
+        "msgs_average": 3,
+        "msgs_last_ts": "1637080889",
+        "msgs_last_text": "kakola: This is an old old group."
+    },
+    {
+        "id": 70,
+        "created": 1631903707.345598,
+        "room_id": "HQSb9LtO5bZY3Zha",
+        "title": "DAX and GER30",
+        "description": "Chat about the DAX! Germany's biggest equity index. Share ideas, news, and charts.",
+        "misc": {},
+        "user_id": 95330,
+        "users_online": false,
+        "msgs_days": 2696,
+        "msgs_total": 816328,
+        "msgs_today": 52,
+        "msgs_average": 303,
+        "msgs_last_ts": "1637663573",
+        "msgs_last_text": "wolfah: This is, why 16k is so important!"
+    },
+    {
+        "id": 4482,
+        "created": 1632332022.168907,
+        "room_id": "chLYNrlr5EcXKVSR",
+        "title": "Dogecoin - DOGE",
+        "description": "Dogecoin chat! Dogecoin is a cryptocurrency invented by software engineers Billy Markus and Jackson Palmer, who decided to create a payment system that is instant, fun, and free from traditional banking fees. Dogecoin features the face of the Shiba Inu dog from the \"Doge\" meme as its logo and namesake",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 816601,
+        "users_online": false,
+        "msgs_days": 222,
+        "msgs_total": 783,
+        "msgs_today": 0,
+        "msgs_average": 4,
+        "msgs_last_ts": "1637523411",
+        "msgs_last_text": "drbutthole: https://www.tradingview.com/chart/DOGEUSDT/B5em0IuK-DOGE-USDT/\n\nhave a look at this, breaking out?!"
+    },
+    {
+        "id": 4967,
+        "created": 1637172530.162353,
+        "room_id": "3pnqWBEnQoPxxG9p",
+        "title": "Doge Elon and MARS (Group)",
+        "description": "Drink some space brew on MARS with Elon and Doge. Just a place to hang out in the future.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 11950168,
+        "users_online": false,
+        "msgs_days": 13,
+        "msgs_total": 14,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637172530",
+        "msgs_last_text": "scheplick: "
+    },
+    {
+        "id": 3522,
+        "created": 1631906034.596278,
+        "room_id": "WMCFdV9yPpQBzsWK",
+        "title": "Dow Chat - US30, YM, DJIA",
+        "description": "Chat about the Dow Jones Industrial Average only. For futures and indices US30 or DJIA.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 160370,
+        "users_online": false,
+        "msgs_days": 614,
+        "msgs_total": 668,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637614294",
+        "msgs_last_text": "Hemenasan9: Anyone caught 902?"
+    },
+    {
+        "id": 4886,
+        "created": 1636051993.627809,
+        "room_id": "4BjmTYjm5ANfsXxW",
+        "title": "Draft Night Investing (Group)",
+        "description": "We are here to discuss a broad range of ideas and sentiment on various markets! Please be respectful to others!",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 7657606,
+        "users_online": false,
+        "msgs_days": 34,
+        "msgs_total": 4,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1636051993",
+        "msgs_last_text": "scheplick: "
+    },
+    {
+        "id": 4609,
+        "created": 1623259392.922129,
+        "room_id": "QzAQglchjkqBvDhB",
+        "title": "Editors' Picks",
+        "description": "Ideas that should be considered for Editors' Picks. We will also use this chat to share recent selections. Publish an idea and share it here if you think it should be selected. How do you publish an idea on TradingView? Click the Publish button at the top right-hand corner of your chart. Make sure you write a thoughtful description! Oh, and make the chart beautiful!",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 6171439,
+        "users_online": false,
+        "msgs_days": 167,
+        "msgs_total": 346,
+        "msgs_today": 3,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637661347",
+        "msgs_last_text": "Super_B_XinR: The drop in XAUUSD price is the right time to enter, and the bulls will covertly set up a comeback. Meanwhile, my team believes that the defensive range for the bulls is $1770-1780. let's expect the price to hold above this defensive range. The trading plan should be matched with appropriate risk management to achieve optimal results."
+    },
+    {
+        "id": 88,
+        "created": 1406167215.530538,
+        "room_id": "6N3ooQ8L1g9B535D",
+        "title": "Elliott Wave Charting",
+        "description": "Charts and ideas based on the Elliott Wave principle",
+        "misc": null,
+        "user_id": 21669,
+        "users_online": false,
+        "msgs_days": 2680,
+        "msgs_total": 2249,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637591782",
+        "msgs_last_text": "Tulika: tsla"
+    },
+    {
+        "id": 753,
+        "created": 1632331950.293725,
+        "room_id": "yrgtWWVYUbIiCt6S",
+        "title": "Ethereum - ETH",
+        "description": "A chat room for all price, analysis and trading discussion about Ethereum and its native crypto-token, Ether (ETH). Discussion about tokens built on the Ethereum Platform also welcome. Welcome all!  Please be respectful and happy trading!",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 68712,
+        "users_online": false,
+        "msgs_days": 2301,
+        "msgs_total": 36715,
+        "msgs_today": 0,
+        "msgs_average": 16,
+        "msgs_last_ts": "1637636918",
+        "msgs_last_text": "Super_B_XinR: Update\nhttps://www.tradingview.com/x/5k1mjaJ6/"
+    },
+    {
+        "id": 26,
+        "created": 1631904011.334492,
+        "room_id": "Sj9VbiDu7w7CAVnv",
+        "title": "EURUSD Chat",
+        "description": "Chatting about the forex pair EURUSD. That's it. Nothing else!",
+        "misc": {},
+        "user_id": 81062,
+        "users_online": false,
+        "msgs_days": 2767,
+        "msgs_total": 17985,
+        "msgs_today": 0,
+        "msgs_average": 6,
+        "msgs_last_ts": "1637608829",
+        "msgs_last_text": "RCtrader2: Good evening all! I hope you had a good trading day. Please view my newest chart:\nhttps://www.tradingview.com/chart/EURUSD/rOOSDKkk-Go-baby-Go/"
+    },
+    {
+        "id": 4977,
+        "created": 1637172175.00497,
+        "room_id": "PNmq69zjn3gqS8NU",
+        "title": "Evotr8 TV (Group)",
+        "description": "Sharing Bursa Malaysia Trading Ideas",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 5881811,
+        "users_online": false,
+        "msgs_days": 9,
+        "msgs_total": 28,
+        "msgs_today": 0,
+        "msgs_average": 3,
+        "msgs_last_ts": "1637172175",
+        "msgs_last_text": "scheplick: "
+    },
+    {
+        "id": 3244,
+        "created": 1631904845.933944,
+        "room_id": "vjJTOGVZX8tkS0Ra",
+        "title": "Fibonacci Charting",
+        "description": "Properly use Fibonacci retracements and other charting tools related to Fibonacci. The golden ratio.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 397582,
+        "users_online": false,
+        "msgs_days": 859,
+        "msgs_total": 349,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637575749",
+        "msgs_last_text": "Lamichhane: I want to use it for SL thinking that it is useful"
+    },
+    {
+        "id": 4881,
+        "created": 1636051967.310687,
+        "room_id": "fbUgxUiX2NP8lrWp",
+        "title": "Fintech - Tech + Finance",
+        "description": "Let's talk about fintech, finance, and technology.",
+        "misc": {
+            "language": "in"
+        },
+        "user_id": 8882490,
+        "users_online": false,
+        "msgs_days": 35,
+        "msgs_total": 3,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1636055567",
+        "msgs_last_text": "scheplick: "
+    },
+    {
+        "id": 4906,
+        "created": 1636052286.837101,
+        "room_id": "KcMj2RNWpeT77E4c",
+        "title": "Full Time Traders",
+        "description": "A space to chat about being a full-time trader. Misc chats and more.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 2553649,
+        "users_online": false,
+        "msgs_days": 27,
+        "msgs_total": 15,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637619173",
+        "msgs_last_text": "mrsjohnson8486: i would love to"
+    },
+    {
+        "id": 4882,
+        "created": 1634736716.764293,
+        "room_id": "KCC84ylcnXgVZpA5",
+        "title": "Futures charts and chat",
+        "description": "A room for sharing thoughts Ideas and out look's on futures trading",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 19437489,
+        "users_online": false,
+        "msgs_days": 35,
+        "msgs_total": 65,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637542229",
+        "msgs_last_text": "underdog99x: Btc"
+    },
+    {
+        "id": 4018,
+        "created": 1632332388.35587,
+        "room_id": "m3xXrXaPBnlO31Gk",
+        "title": "Futures Trading Chat",
+        "description": "Chat about the major futures markets, including indices and other assets.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 11430563,
+        "users_online": false,
+        "msgs_days": 442,
+        "msgs_total": 962,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1636707083",
+        "msgs_last_text": "Super_B_XinR: Charts still working  https://www.tradingview.com/chart/XAUUSD/hLqFfKAv-XAUUSD-Price-keeps-rising-potential/"
+    },
+    {
+        "id": 3354,
+        "created": 1631904244.868374,
+        "room_id": "VPsOO9B1Ke2VdlwR",
+        "title": "GBPJPY Chat",
+        "description": "GBPJPY Forex chat. Please only discuss GBPJPY!",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 1100960,
+        "users_online": false,
+        "msgs_days": 736,
+        "msgs_total": 636,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637644881",
+        "msgs_last_text": "WillyumFX: [quote=\"thioco88\"]i didnt know there was a gbpjpy chat![/quote]\n :agree: :agree:"
+    },
+    {
+        "id": 1407,
+        "created": 1631905865.361396,
+        "room_id": "bSDXyFGHqlaKXKYN",
+        "title": "GBPUSD Cable Chat",
+        "description": "Chatting about GBPUSD only. Charts, trades, and news are all encouraged.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 263551,
+        "users_online": false,
+        "msgs_days": 1966,
+        "msgs_total": 4298,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637443202",
+        "msgs_last_text": "TradeTrio: https://www.tradingview.com/chart/GBPUSD/ejHA3bcT-GBPUSD-SHORT-SIGNS/\nDo you agree?"
+    },
+    {
+        "id": 18,
+        "created": 1632332184.30213,
+        "room_id": "spKNkcfKuFVnvOKV",
+        "title": "Gold Trading Chat",
+        "description": "A place to chat about gold, including trades, chats, news, and everything else.",
+        "misc": {},
+        "user_id": 65671,
+        "users_online": false,
+        "msgs_days": 2771,
+        "msgs_total": 6365404,
+        "msgs_today": 1061,
+        "msgs_average": 2297,
+        "msgs_last_ts": "1637663978",
+        "msgs_last_text": "RT_Trading_: @leeada2016 current char? :D"
+    },
+    {
+        "id": 1439,
+        "created": 1631904928.757862,
+        "room_id": "b4sFOMIVqPkq8gfQ",
+        "title": "Indian Indices - BSE, NSE, NIFTY",
+        "description": "Indian indexes chat for BSE, SENSEX, NSE, NIFTY, INR-crosses and more.",
+        "misc": {
+            "language": "in"
+        },
+        "user_id": 247270,
+        "users_online": false,
+        "msgs_days": 1920,
+        "msgs_total": 103993,
+        "msgs_today": 37,
+        "msgs_average": 54,
+        "msgs_last_ts": "1637660653",
+        "msgs_last_text": "alacritous: nifty still not safe"
+    },
+    {
+        "id": 4944,
+        "created": 1635611479.785754,
+        "room_id": "lDJKWpjD9K4kNx1s",
+        "title": "Indian Stock Market",
+        "description": "NSE, BSE, Daily Trading Swing Trading, News",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 23969702,
+        "users_online": false,
+        "msgs_days": 24,
+        "msgs_total": 7,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637561598",
+        "msgs_last_text": "PPUSHPPUN: hi"
+    },
+    {
+        "id": 3150,
+        "created": 1632504857.597427,
+        "room_id": "GGvXhTAZWG8nUrTs",
+        "title": "Indian Stocks",
+        "description": "Daily trading ideas for Indian stocks. Indian stocks only!",
+        "misc": {
+            "language": "in"
+        },
+        "user_id": 1535422,
+        "users_online": false,
+        "msgs_days": 897,
+        "msgs_total": 695,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637329727",
+        "msgs_last_text": "PriceCatch: Remember of course, that TV only permits 40 security calls. So you can scan only 40 stocks at a time. But there is a work around, however you need good pinescript skills to accomplish that."
+    },
+    {
+        "id": 4945,
+        "created": 1635611724.12511,
+        "room_id": "UzlB6bs1LZCd2ag5",
+        "title": "Indian Stocks Day Trading",
+        "description": "Lets Trade Together (NSE) Day Trading",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 23969702,
+        "users_online": false,
+        "msgs_days": 24,
+        "msgs_total": 5,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637034251",
+        "msgs_last_text": "VadivalPranchi: hi"
+    },
+    {
+        "id": 4972,
+        "created": 1636778315.645906,
+        "room_id": "KJymGOoGOXnnT64h",
+        "title": "Jesus Freaks Christian Traders",
+        "description": "all are welcome here. A place for some peace, love, and some daily food for the spirit. Godbless.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 17239543,
+        "users_online": false,
+        "msgs_days": 11,
+        "msgs_total": 11,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637223758",
+        "msgs_last_text": "Dark_Crow: [quote=\"gardenmarketresearch\"]2 Set your minds on things that are above, not on things that are on earth. 3 For you have died, and your life is hidden with Christ in God. 4 When Christ who is your life appears, then you also will appear with him in glory.\nColossians 3:2-4[/quote] this one really makes you thinks a lot."
+    },
+    {
+        "id": 4946,
+        "created": 1636052413.627929,
+        "room_id": "AtXxUdeiT2ib0Hch",
+        "title": "Just Charts Team (Group)",
+        "description": "Intellectual and technical analysis relating to financial markets especially in relation to Bitcoin BTC and true honest derivatives like Ethereum ETH",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 2413721,
+        "users_online": false,
+        "msgs_days": 24,
+        "msgs_total": 15,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1636909592",
+        "msgs_last_text": "cbuck1994: "
+    },
+    {
+        "id": 118,
+        "created": 1449162361.663838,
+        "room_id": "c8BzrhGRvXxGXWnJ",
+        "title": "Key Hidden Levels",
+        "description": "To highlight stocks at Key Hidden Levels, and trades setting up as they approach or move away from a Key Hidden Level.",
+        "misc": null,
+        "user_id": 191,
+        "users_online": false,
+        "msgs_days": 2647,
+        "msgs_total": 368541,
+        "msgs_today": 0,
+        "msgs_average": 139,
+        "msgs_last_ts": "1637626415",
+        "msgs_last_text": "IvanLabrie: corn daily signal"
+    },
+    {
+        "id": 3691,
+        "created": 1632332354.006241,
+        "room_id": "yxelywChYcKPzmmH",
+        "title": "Long Term Investing",
+        "description": "Come here to talk about long-term investing across all asset classes.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 2613299,
+        "users_online": false,
+        "msgs_days": 563,
+        "msgs_total": 223,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637551916",
+        "msgs_last_text": "lighttheway: FAZ\nSOXS\nSSG\nTECS\nTZA\n\nLay it out. Market crash stocks."
+    },
+    {
+        "id": 2782,
+        "created": 1632504949.459979,
+        "room_id": "TJyyONAih930R7Ml",
+        "title": "Macro Charts and Economy",
+        "description": "Daily macro trade ideas. Share charts, econ, and other events.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 1726985,
+        "users_online": false,
+        "msgs_days": 1091,
+        "msgs_total": 5314,
+        "msgs_today": 0,
+        "msgs_average": 5,
+        "msgs_last_ts": "1637105074",
+        "msgs_last_text": "Super_B_XinR: XAUUSD Latest Analysis https://www.tradingview.com/chart/XAUUSD/yTJs56fd-Let-s-form-a-coalition-to-win-all-the-chips/"
+    },
+    {
+        "id": 4910,
+        "created": 1636052167.021939,
+        "room_id": "wLd17Kq3ZAmRc8tt",
+        "title": "Moonshot & YOLO Coins",
+        "description": "Discuss the Alternate coins - moonshot candidates, current pumps and dumps, crook spotting etc.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 2413721,
+        "users_online": false,
+        "msgs_days": 25,
+        "msgs_total": 28,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637338314",
+        "msgs_last_text": "tamesk1973: Hello, does anyone have any comments about LPT? :pray:"
+    },
+    {
+        "id": 4981,
+        "created": 1637172290.6006,
+        "room_id": "kcEEIlEK9yLRxe2A",
+        "title": "MP Fomo (Group)",
+        "description": "MP Fomo (Group) on TradingView",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 19311386,
+        "users_online": false,
+        "msgs_days": 7,
+        "msgs_total": 3,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637172290",
+        "msgs_last_text": "scheplick: "
+    },
+    {
+        "id": 49,
+        "created": 1631903673.32999,
+        "room_id": "UajYkAfATwDxwyFp",
+        "title": "Natural Gas Chat",
+        "description": "Natural Gas chat for traders and investors.",
+        "misc": {},
+        "user_id": 93769,
+        "users_online": false,
+        "msgs_days": 2722,
+        "msgs_total": 322035,
+        "msgs_today": 37,
+        "msgs_average": 118,
+        "msgs_last_ts": "1637662803",
+        "msgs_last_text": "Haloress: anything news"
+    },
+    {
+        "id": 4877,
+        "created": 1636464472.766014,
+        "room_id": "bmRiK6Fq5KWJf5M4",
+        "title": "New Money (Group)",
+        "description": "Trading Group to talk about trades and ideas.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 549760,
+        "users_online": false,
+        "msgs_days": 37,
+        "msgs_total": 10,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1636638178",
+        "msgs_last_text": "rsamuesh: ppsi"
+    },
+    {
+        "id": 4725,
+        "created": 1634154204.4097,
+        "room_id": "nj82UUU6HKQ7Fnp0",
+        "title": "Next Gen Cryptocurrencies",
+        "description": "The next wave of cryptocurrencies and advanced crypto chat. No spam please. Post in detail and be in long-form if possible.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 19773097,
+        "users_online": false,
+        "msgs_days": 112,
+        "msgs_total": 60,
+        "msgs_today": 1,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637659590",
+        "msgs_last_text": "amirsediq: Wen lambo?"
+    },
+    {
+        "id": 623,
+        "created": 1433296024.513485,
+        "room_id": "huufTEomwseDbwhZ",
+        "title": "nmike Divergence Trading Room",
+        "description": "Trading the diverging market as always. finding them right spots.",
+        "misc": null,
+        "user_id": 140468,
+        "users_online": false,
+        "msgs_days": 2366,
+        "msgs_total": 323981,
+        "msgs_today": 5,
+        "msgs_average": 137,
+        "msgs_last_ts": "1637657297",
+        "msgs_last_text": "Jimmyrockhard: even if it is a pull back."
+    },
+    {
+        "id": 154,
+        "created": 1631903735.015242,
+        "room_id": "ZaJvQy7PDvTR4irM",
+        "title": "Oil Chat - WTI & Brent",
+        "description": "Talk about where oil is heading. Predictions, news, strategies, and more.",
+        "misc": {},
+        "user_id": 119252,
+        "users_online": false,
+        "msgs_days": 2601,
+        "msgs_total": 3791136,
+        "msgs_today": 160,
+        "msgs_average": 1458,
+        "msgs_last_ts": "1637663985",
+        "msgs_last_text": "Jetter2: ES tagged 20d for first time in 6 weeks https://www.tradingview.com/x/W92ivneu/"
+    },
+    {
+        "id": 1717,
+        "created": 1631905267.63761,
+        "room_id": "IN810KVIPUIT4tcb",
+        "title": "Option Trading",
+        "description": "Talk about options, how you trade them, new ideas, and how to use them. This is for pros and newbies.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 836030,
+        "users_online": false,
+        "msgs_days": 1668,
+        "msgs_total": 1848,
+        "msgs_today": 1,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637659559",
+        "msgs_last_text": "amirsediq: what a pump"
+    },
+    {
+        "id": 2685,
+        "created": 1631904484.682503,
+        "room_id": "awfJXi5pJyhHEzTF",
+        "title": "Palladium Chat",
+        "description": "Discuss Palladium, the rare precious metal. Charts, ideas, and news welcome.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 74740,
+        "users_online": false,
+        "msgs_days": 1122,
+        "msgs_total": 1205,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637419667",
+        "msgs_last_text": "PriceCatch: Looking at my chart I think a serious push down appears unlikely - but I might be wrong."
+    },
+    {
+        "id": 4899,
+        "created": 1636052053.194298,
+        "room_id": "Lz0M8A66jgMlSd46",
+        "title": "Penny Stonks Chat",
+        "description": "Chatting about meme stocks and penny stocks.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 2662887,
+        "users_online": false,
+        "msgs_days": 30,
+        "msgs_total": 26,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637156937",
+        "msgs_last_text": "keeles001: any interesting stocks with good potential ?"
+    },
+    {
+        "id": 4992,
+        "created": 1637604676.742861,
+        "room_id": "VWMym00CxJQoRfa9",
+        "title": "PersonalLoanTraders",
+        "description": "Turning loans into tendies",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 15917509,
+        "users_online": false,
+        "msgs_days": 1,
+        "msgs_total": 5,
+        "msgs_today": 0,
+        "msgs_average": 5,
+        "msgs_last_ts": "1637604754",
+        "msgs_last_text": "Personal_Loan_Trader: we making money moves"
+    },
+    {
+        "id": 9,
+        "created": 1581501294.771124,
+        "room_id": "BfmVowG1TZkKO235",
+        "title": "Pine Script",
+        "description": "For Pine programmers who need help.",
+        "misc": null,
+        "user_id": 16936,
+        "users_online": false,
+        "msgs_days": 2777,
+        "msgs_total": 130626,
+        "msgs_today": 16,
+        "msgs_average": 47,
+        "msgs_last_ts": "1637660263",
+        "msgs_last_text": "bfr_: Hi guys, when i use  tf = input.timeframe(), the tf variable contains a string. Can i check somehow if the user has picked for example higher tf than daily or any similar calculation? The timeframe.* functions i think only reads the charts timeframe(or timeframe parameter if i add it to \"indicator\" definition but labels and lines break if i use that one)"
+    },
+    {
+        "id": 4909,
+        "created": 1635536066.642998,
+        "room_id": "LcjuJvYumv6duWNQ",
+        "title": "Pre-Market Traders",
+        "description": "Chat Room for traders who trade in the first 30-60 minutes of market based on pre-market charts",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 22814655,
+        "users_online": false,
+        "msgs_days": 25,
+        "msgs_total": 4,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1636221314",
+        "msgs_last_text": "MAKEITorFAKEIT: Is this the group you were planning to create long ago? I’m in 😅"
+    },
+    {
+        "id": 4907,
+        "created": 1635407938.984043,
+        "room_id": "QyMMbct9r1xmN6yD",
+        "title": "Premium Sellers",
+        "description": "Chat about the strategy of selling premium in options for an IV collapse (Neutral Delta)",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 18084261,
+        "users_online": false,
+        "msgs_days": 27,
+        "msgs_total": 6,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637292272",
+        "msgs_last_text": "arielruano21: +"
+    },
+    {
+        "id": 4844,
+        "created": 1636052073.254396,
+        "room_id": "rL7NVDpKVRz3PlJL",
+        "title": "Price Action Traders (Group)",
+        "description": "You are interested in price action you come right now here.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 10858786,
+        "users_online": false,
+        "msgs_days": 53,
+        "msgs_total": 15,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637029848",
+        "msgs_last_text": "brandonbreev1: us 30"
+    },
+    {
+        "id": 4904,
+        "created": 1636052091.516357,
+        "room_id": "UFb8eJsgkBeBoJ0z",
+        "title": "Real-Time News",
+        "description": "Real-time and market relevant news. Post links, breaking news, and more.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 2387492,
+        "users_online": false,
+        "msgs_days": 28,
+        "msgs_total": 61,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1636982485",
+        "msgs_last_text": "jozzhy324: Hello !"
+    },
+    {
+        "id": 2367,
+        "created": 1632332007.119743,
+        "room_id": "gN7gS0zo2KNF7fYM",
+        "title": "Ripple - XRP",
+        "description": "Discussion centered around the crypto currency Ripple.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 1947978,
+        "users_online": false,
+        "msgs_days": 1424,
+        "msgs_total": 3317,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637497052",
+        "msgs_last_text": "Home58: XRP no use nuclear, doge use nuclear"
+    },
+    {
+        "id": 1546,
+        "created": 1484071555.511219,
+        "room_id": "QEgUtpDx4PC4OjkP",
+        "title": "Risk Master Guild Group",
+        "description": "Sharing Trading Ideas Education CFD & BINARY",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 85350,
+        "users_online": false,
+        "msgs_days": 1778,
+        "msgs_total": 116127,
+        "msgs_today": 0,
+        "msgs_average": 65,
+        "msgs_last_ts": "1636984751",
+        "msgs_last_text": "A-R-N-: no joke"
+    },
+    {
+        "id": 1382,
+        "created": 1465641883.324317,
+        "room_id": "Iiu0jvBE9ZnKwVvd",
+        "title": "Romanian Traders",
+        "description": "Forex Currency Trading",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 259594,
+        "users_online": false,
+        "msgs_days": 2018,
+        "msgs_total": 74906,
+        "msgs_today": 0,
+        "msgs_average": 37,
+        "msgs_last_ts": "1637265121",
+        "msgs_last_text": "vanghelie.traian.alexandru: Nop"
+    },
+    {
+        "id": 4600,
+        "created": 1631906291.514693,
+        "room_id": "HA8BTyb3CCnvIOGD",
+        "title": "Russian Traders",
+        "description": "Anything and everything to do with trading in Russia including forex, futures, and stocks.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 21753576,
+        "users_online": false,
+        "msgs_days": 171,
+        "msgs_total": 1290,
+        "msgs_today": 7,
+        "msgs_average": 8,
+        "msgs_last_ts": "1637663875",
+        "msgs_last_text": "vikz: так вопрос не в том знали не знали, тогда nymex подготовился к отрицалову а моекс нет и закрыл торги на 8 баксах. так с хера тогда исполняли по минус 37? нормальный кейс, очень нужный"
+    },
+    {
+        "id": 4959,
+        "created": 1636137962.043361,
+        "room_id": "IGNfXnEI1qef2gnN",
+        "title": "SandBox Trading (Group)",
+        "description": "Price discussion related towards Sandbox metaverse token https://coinmarketcap.com/currencies/the-sandbox/",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 17907149,
+        "users_online": false,
+        "msgs_days": 19,
+        "msgs_total": 6,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1636137962",
+        "msgs_last_text": "scheplick: "
+    },
+    {
+        "id": 4828,
+        "created": 1632671690.268927,
+        "room_id": "mCDX7ZCVhcz0Yde9",
+        "title": "Screener & Heatmap Chat",
+        "description": "Share your favorite ways to create screens, scans, and Heatmaps. Ask questions and help others.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 7417494,
+        "users_online": false,
+        "msgs_days": 60,
+        "msgs_total": 15,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1635856703",
+        "msgs_last_text": "iTiTAN: So is this chat active?"
+    },
+    {
+        "id": 4109,
+        "created": 1631906528.023527,
+        "room_id": "E0U9ynPevrscEoya",
+        "title": "Share Your TradingView Setup",
+        "description": "A place to talk specifically about the way you setup your TradingView charts, indicators, design, colors, and more.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 9253411,
+        "users_online": false,
+        "msgs_days": 378,
+        "msgs_total": 200,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1636546311",
+        "msgs_last_text": "Constantino: [quote=\"DojiEmoji\"]https://www.tradingview.com/chart/TSLA/ODYfqmrv-Screen-Setup-for-Fundamental-Analysis/\n\nHere's a set up for fundamental analysis. I don't think there's a limit to how many metrics indicators you can put on your screen[/quote]\nput 10 more maybe that helps more"
+    },
+    {
+        "id": 4893,
+        "created": 1636464521.939322,
+        "room_id": "M3Qc2huxnyyWgcq9",
+        "title": "Shiba Inu Chat - SHIB",
+        "description": "Discussion of SHIB or Shiba Inu. Only Shib please!",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 3775127,
+        "users_online": false,
+        "msgs_days": 31,
+        "msgs_total": 220,
+        "msgs_today": 0,
+        "msgs_average": 7,
+        "msgs_last_ts": "1637611279",
+        "msgs_last_text": "ravigr89: @gremic"
+    },
+    {
+        "id": 969,
+        "created": 1632332171.147025,
+        "room_id": "tEkrZBiZi0TaWw4S",
+        "title": "Silver Trading Chat",
+        "description": "Predictive Analysis",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 114437,
+        "users_online": false,
+        "msgs_days": 2220,
+        "msgs_total": 46361,
+        "msgs_today": 0,
+        "msgs_average": 21,
+        "msgs_last_ts": "1637591415",
+        "msgs_last_text": "EdTheLorax: [quote=\"ImranRFx\"]Tp Hit https://www.tradingview.com/chart/XAGUSD/C3BXlrZf-Possible-short/\nThank you guys[/quote]\n :cocktail:"
+    },
+    {
+        "id": 4880,
+        "created": 1636052263.42103,
+        "room_id": "6b7a31qraN4QDSes",
+        "title": "SixOne Invest (Group)",
+        "description": "XAUUSD Trading and SixOne Invest Group",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 12581038,
+        "users_online": false,
+        "msgs_days": 36,
+        "msgs_total": 10,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1636333429",
+        "msgs_last_text": "ccampbell41: xau"
+    },
+    {
+        "id": 4078,
+        "created": 1631906057.209394,
+        "room_id": "rbTr82rkZ1zNqTxI",
+        "title": "S&P 500 Chat - SPX, SPY, ES",
+        "description": "Trading S&P 500 futures chat. Only S&P 500 trading is allowed.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 6929667,
+        "users_online": false,
+        "msgs_days": 390,
+        "msgs_total": 269,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637269776",
+        "msgs_last_text": "SyedSAadi: sp500 sell off"
+    },
+    {
+        "id": 4975,
+        "created": 1637172505.230643,
+        "room_id": "9C0KDVwD2YVV6tKe",
+        "title": "Sparrow AH (Group)",
+        "description": "Community for Sparrow and viewers to connect, chat, and share trade ideas and strategies. Information is provided as a supplement to twitch.tv/sparrowAH live streams.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 23109660,
+        "users_online": false,
+        "msgs_days": 9,
+        "msgs_total": 5,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637172505",
+        "msgs_last_text": "scheplick: "
+    },
+    {
+        "id": 4966,
+        "created": 1636590102.565302,
+        "room_id": "HncHkbcbtFCN69x6",
+        "title": "Stocks Valuation",
+        "description": "Discuss stock valuations, helping each other conclude on the value of a stock, if it is overvalued, undervalued, or valued right.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 13936040,
+        "users_online": false,
+        "msgs_days": 13,
+        "msgs_total": 2,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1636590109",
+        "msgs_last_text": "impactpotato: Wekcome"
+    },
+    {
+        "id": 712,
+        "created": 1436898563.271072,
+        "room_id": "3PPPFNQzjwtfVd7I",
+        "title": "Swing Trading",
+        "description": "Chat room for swing traders. Let's help each other to catch all the waves!",
+        "misc": null,
+        "user_id": 30132,
+        "users_online": false,
+        "msgs_days": 2324,
+        "msgs_total": 6728,
+        "msgs_today": 2,
+        "msgs_average": 3,
+        "msgs_last_ts": "1637662688",
+        "msgs_last_text": "Ikhasti: Who's the best in swing trade here?"
+    },
+    {
+        "id": 4838,
+        "created": 1633008665.306764,
+        "room_id": "LeWvAL7EjGTyufuB",
+        "title": "The Scalpers (Group)",
+        "description": "Scalping group. For Short-term trading on small timeframes (M5-M15).",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 13944801,
+        "users_online": false,
+        "msgs_days": 56,
+        "msgs_total": 44,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637036101",
+        "msgs_last_text": "cutlossking: are those triangless you rfills actual trades?"
+    },
+    {
+        "id": 1598,
+        "created": 1631903963.843205,
+        "room_id": "FhkWh5BVPdwJbCjq",
+        "title": "Trading for Beginners",
+        "description": "A non-market specific chat to share advice and discuss the 'noob' mistakes we all make",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 687478,
+        "users_online": false,
+        "msgs_days": 1742,
+        "msgs_total": 2703,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637522586",
+        "msgs_last_text": "drbutthole: have a look at my chart, \nhttps://www.tradingview.com/chart/SHIBUSDT/v0Dfnodp-All-Eyez-on-SHIB-Descending-triangle/"
+    },
+    {
+        "id": 4971,
+        "created": 1637172494.585461,
+        "room_id": "A6rJaJfvFP0HRt73",
+        "title": "Trading Rules (Group)",
+        "description": "Trading rules group. Place to chat about trading rules.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 114596,
+        "users_online": false,
+        "msgs_days": 11,
+        "msgs_total": 10,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637435690",
+        "msgs_last_text": "gremic: [quote=\"Trading_Freaks\"]https://in.tradingview.com/chart/BTCUSDT/PBC3FwRr-BTCUSDT-Will-Hit-87500/[/quote]\n :okay:"
+    },
+    {
+        "id": 4575,
+        "created": 1631906790.518749,
+        "room_id": "6jyIXtIEJV3Vyw5Y",
+        "title": "TradingView Feature Request",
+        "description": "Propose features you wish to see on TradingView. The TradingView team watches this chat and will say hi from time to time!",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 554370,
+        "users_online": false,
+        "msgs_days": 187,
+        "msgs_total": 303,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637405817",
+        "msgs_last_text": "T01157899: BTCUSD"
+    },
+    {
+        "id": 4261,
+        "created": 1631904796.126141,
+        "room_id": "AQLHWj3oRWPmH7iR",
+        "title": "TradingView Tips",
+        "description": "Tips for using TradingView",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 123412,
+        "users_online": false,
+        "msgs_days": 306,
+        "msgs_total": 216,
+        "msgs_today": 1,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637651065",
+        "msgs_last_text": "okako_trading: Hi sir... I'm using this app for charting from last 1-2 years.. But today My payment for pro subscription is debited But I don't receive any subscription please help me to solve this problem."
+    },
+    {
+        "id": 4991,
+        "created": 1637600295.206599,
+        "room_id": "RTgwOjA9s4gOLRHs",
+        "title": "UMA today",
+        "description": "discuss",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 25268943,
+        "users_online": false,
+        "msgs_days": 1,
+        "msgs_total": 2,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637600318",
+        "msgs_last_text": "Emiliyo20: UMA looks fine. it should be go up 18"
+    },
+    {
+        "id": 4952,
+        "created": 1636665120.786143,
+        "room_id": "mMIA4tbg23gZ4brS",
+        "title": "US30 & NAS100 (Team)",
+        "description": "Come together to share our best edge to trade US30 and NAS100 profitably.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 10991021,
+        "users_online": false,
+        "msgs_days": 21,
+        "msgs_total": 17,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1636976962",
+        "msgs_last_text": "mooncatmoon: Short?You sure?I think it is be long"
+    },
+    {
+        "id": 1547,
+        "created": 1631904611.941,
+        "room_id": "pRJk24PTFfXMk02R",
+        "title": "USDJPY Chat",
+        "description": "USDJPY only. Share charts and ideas related to USDJPY. Please nothing else.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 711027,
+        "users_online": false,
+        "msgs_days": 1777,
+        "msgs_total": 1459,
+        "msgs_today": 0,
+        "msgs_average": 1,
+        "msgs_last_ts": "1637201294",
+        "msgs_last_text": "ddkinger98: Usdjpy buy or sell"
+    },
+    {
+        "id": 4260,
+        "created": 1631905733.811425,
+        "room_id": "E6koKZFbsK3TCdvy",
+        "title": "Wall Street Bets",
+        "description": "This chat is inspired by r/WallStreetBets! Meme stocks, YOLO trades, short squeezes, and more.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 554370,
+        "users_online": false,
+        "msgs_days": 306,
+        "msgs_total": 3196,
+        "msgs_today": 2,
+        "msgs_average": 10,
+        "msgs_last_ts": "1637660382",
+        "msgs_last_text": "Toket: sup whats the deal with clov whats the news on it"
+    },
+    {
+        "id": 2795,
+        "created": 1631905919.573929,
+        "room_id": "GvePa7ye199oBUu1",
+        "title": "World's #1 Bitcoin Group",
+        "description": "Bitcoin was invented by Satoshi Nakamoto. This group is all about Bitcoin.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 580071,
+        "users_online": false,
+        "msgs_days": 1083,
+        "msgs_total": 1826,
+        "msgs_today": 0,
+        "msgs_average": 2,
+        "msgs_last_ts": "1637557315",
+        "msgs_last_text": "MaSa_83: https://de.tradingview.com/chart/BTCUSD/aYtJutoj/\n :bear: :downtrend:"
+    },
+    {
+        "id": 4987,
+        "created": 1637492307.629421,
+        "room_id": "s4eqRFwfvMh7VlhU",
+        "title": "XZS",
+        "description": "CALLS",
+        "misc": {
+            "language": "in"
+        },
+        "user_id": 27163730,
+        "users_online": false,
+        "msgs_days": 3,
+        "msgs_total": 1,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637492308",
+        "msgs_last_text": "AMITANSAL369369: CALLS"
+    },
+    {
+        "id": 4951,
+        "created": 1636051917.183968,
+        "room_id": "99sbJS5m3P5wD9rD",
+        "title": "Yoga, Relaxation, and Trading",
+        "description": "Let's talk about yoga and trading.",
+        "misc": {
+            "language": "en"
+        },
+        "user_id": 26070753,
+        "users_online": false,
+        "msgs_days": 23,
+        "msgs_total": 3,
+        "msgs_today": 0,
+        "msgs_average": 0,
+        "msgs_last_ts": "1637392311",
+        "msgs_last_text": "gremic: Echo echo echo....."
+    }
+]

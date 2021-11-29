@@ -1,0 +1,44 @@
+<div class="employee_container">
+  <h2>My Staff</h2>
+
+  <table class="employees">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Email</th>
+      <th>Action</th>
+    </tr>
+    <tr
+    [class.selected]="employee === selectedEmployee"
+    *ngFor="let employee of employees"
+    >
+      <td>
+        {{employee.fname}}
+      </td>
+      <td>
+        {{employee.lname}}
+      </td>
+      <td>
+        {{employee.email}}
+      </td>
+      <td>
+        <button class="btn" (click)="editEmployee(employee)">Edit</button>
+        <button class="btn" (click)="DeleteEmployee(employee)" >Remove</button>
+      </td>
+    </tr>
+  </table>
+
+
+  <div class="selectedEmployee" *ngIf="selectedEmployee">
+
+    <h2>{{selectedEmployee.fname | uppercase}} {{selectedEmployee.lname | uppercase}} Details</h2>
+      <div><span>id: </span>{{selectedEmployee.id}}</div>
+      <div>
+        <label for="employee-fname">Employee first name: </label>
+        <input id="employee-fname" [(ngModel)]="selectedEmployee.fname" placeholder="fname">
+        <br>
+        <label for="employee-lname">Employee last name: </label>
+        <input id="employee-lname" [(ngModel)]="selectedEmployee.lname" placeholder="lname">
+      </div>
+    </div>
+</div>
