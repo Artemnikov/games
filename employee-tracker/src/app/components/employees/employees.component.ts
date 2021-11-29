@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { Employee } from 'src/app/employee-interface';
-import { employees } from 'src/app/mock-employee';
+import { EmployeesService } from 'src/app/services/employees.service';
 
 @Component({
   selector: 'app-employees',
@@ -9,7 +9,7 @@ import { employees } from 'src/app/mock-employee';
 })
 export class EmployeesComponent implements OnInit {
   title = 'Employee Tracker';
-  employees = employees
+  employees: Employee[] = []
 
   selectedEmployee?: Employee
 
@@ -19,16 +19,18 @@ export class EmployeesComponent implements OnInit {
 
   @HostListener('window:keydown', ['$event'])
   handleKeyDown(event: KeyboardEvent) {
-    delete this.selectedEmployee
+    if(event.key == 'Escape')
+      delete this.selectedEmployee
   }
 
   DeleteEmployee ( employee:Employee ) {
 
   }
 
-  constructor() { }
+  constructor(private employeeSerive: EmployeesService) { }
 
   ngOnInit(): void {
+    this.employeeSerive.getEmployees().subscribe((employee) => this.employees = employee)
   }
 
 }
