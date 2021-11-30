@@ -21,24 +21,22 @@ export class EmployeesService {
     return this.http.delete<Employee>(url)
   }
 
-
-
-  createEmployees (employee:Employee): Observable<Employee> {
-    const url = `${this.apiurl}/${employee.id}`
-    return this.http.post<Employee>(url, {
-      JSON : {
-          "id": employee.id,
-          "fname": employee.fname,
-          "lname": employee.lname,
-          "dateofbirth": employee.dateofbirth,
-          "salary": employee.salary,
-          "email": employee.email,
-        }
-    } )
-  }
-
   addEmployees (employee:Employee): Observable<Employee> {
     const url = `${this.apiurl}/${employee.id}`
-    return this.http.delete<Employee>(url)
+    return this.http.post<Employee>(url,
+      employee)
   }
+
+  editEmployees (employee:Employee) {
+    const url = `${this.apiurl}/${employee.id}`
+    return this.http.put(url, {
+      "id": employee.id,
+      "fname": employee.fname,
+      "lname": employee.lname,
+      "dateofbirth": employee.dateofbirth,
+      "salary": employee.salary,
+      "email": employee.email
+    }
+    )
+    }
 }

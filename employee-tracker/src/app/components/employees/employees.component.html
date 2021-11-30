@@ -32,13 +32,21 @@
   <div class="selectedEmployee" *ngIf="selectedEmployee">
 
     <h2>{{selectedEmployee.fname | uppercase}} {{selectedEmployee.lname | uppercase}} Details</h2>
-      <div><span>id: </span>{{selectedEmployee.id}}</div>
+      <div>id: {{selectedEmployee.id}} </div>
+      <div>Date of birth: {{selectedEmployee.dateofbirth}}</div>
       <form (ngSubmit)="endEditEmployee(selectedEmployee)">
         <label for="employee-fname">Employee first name: </label>
         <input id="employee-fname" [(ngModel)]="selectedEmployee.fname" placeholder="fname" name="fname">
         <br>
         <label for="employee-lname">Employee last name: </label>
         <input id="employee-lname" [(ngModel)]="selectedEmployee.lname" placeholder="lname" name="lname">
+        <br>
+        <label for="employee-email">Employee email:</label>
+        <input id="employee-employee" [(ngModel)]="selectedEmployee.email" placeholder="email" name="email">
+        <br>
+        <label for="employee-salary"> Salary</label>
+        <input id="employee-employee" [(ngModel)]="selectedEmployee.salary" placeholder="salary" name="salary">
+        <br>
         <input type="submit" value="save">
       </form>
     </div>
