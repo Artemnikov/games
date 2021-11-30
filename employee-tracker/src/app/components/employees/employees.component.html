@@ -33,12 +33,13 @@
 
     <h2>{{selectedEmployee.fname | uppercase}} {{selectedEmployee.lname | uppercase}} Details</h2>
       <div><span>id: </span>{{selectedEmployee.id}}</div>
-      <div>
+      <form (ngSubmit)="endEditEmployee(selectedEmployee)">
         <label for="employee-fname">Employee first name: </label>
-        <input id="employee-fname" [(ngModel)]="selectedEmployee.fname" placeholder="fname">
+        <input id="employee-fname" [(ngModel)]="selectedEmployee.fname" placeholder="fname" name="fname">
         <br>
         <label for="employee-lname">Employee last name: </label>
-        <input id="employee-lname" [(ngModel)]="selectedEmployee.lname" placeholder="lname">
-      </div>
+        <input id="employee-lname" [(ngModel)]="selectedEmployee.lname" placeholder="lname" name="lname">
+        <input type="submit" value="save">
+      </form>
     </div>
 </div>

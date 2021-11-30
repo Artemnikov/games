@@ -13,24 +13,29 @@ export class EmployeesComponent implements OnInit {
 
   selectedEmployee?: Employee
 
-  editEmployee ( employee:Employee ) {
-    this.selectedEmployee = employee
+  constructor(private employeeSerive: EmployeesService) { }
+
+  ngOnInit(): void {
+    this.employeeSerive.getEmployees().subscribe((employee) => this.employees = employee)
   }
 
   @HostListener('window:keydown', ['$event'])
   handleKeyDown(event: KeyboardEvent) {
     if(event.key == 'Escape')
-      delete this.selectedEmployee
+    delete this.selectedEmployee
+  }
+
+  editEmployee ( employee:Employee ) {
+    this.selectedEmployee = employee
   }
 
   DeleteEmployee ( employee:Employee ) {
-
+    this.employeeSerive.deleteEmployees(employee).subscribe(() => (this.employees = this.employees.filter(t => t.id !== employee.id)))
   }
 
-  constructor(private employeeSerive: EmployeesService) { }
-
-  ngOnInit(): void {
-    this.employeeSerive.getEmployees().subscribe((employee) => this.employees = employee)
+  endEditEmployee(employee: Employee){
+    this.employeeSerive.createEmployees(employee).subscribe(() => (this.employees = this.employees.filter(t => t.id !== employee.id)))
+    console.log(employee)
   }
 
 }
