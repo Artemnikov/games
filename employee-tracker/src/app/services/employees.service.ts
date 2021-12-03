@@ -22,8 +22,7 @@ export class EmployeesService {
   }
 
   addEmployees (employee:Employee): Observable<Employee> {
-    const url = `${this.apiurl}/${employee.id}`
-    return this.http.post<Employee>(url,
+    return this.http.post<Employee>(this.apiurl,
       employee)
   }
 

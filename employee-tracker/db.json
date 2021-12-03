@@ -1,20 +1,12 @@
 {
   "employees": [
     {
-      "id": 305359621,
-      "fname": "ejik",
-      "lname": "whiskey",
-      "dateofbirth": "Sometime last 32 years ago",
-      "salary": "Old boots",
-      "email": "ejikov.ejik@gmail.com"
-    },
-    {
-      "id": 305359987,
+      "id": 323322321,
       "fname": "artem",
-      "lname": "pavlikov",
-      "dateofbirth": "Somewhere in 1999",
-      "salary": "candy",
-      "email": "arte.pavlikov@gmail.com"
+      "lname": "emshkov@",
+      "dateofbirth": "yesturdy",
+      "salary": "Old boots2",
+      "email": "sartem.meshkov@gmaik.com"
     }
   ]
 }

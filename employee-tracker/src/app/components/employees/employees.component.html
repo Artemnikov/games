@@ -1,15 +1,24 @@
 <div class="employee_container">
-  <h2>My Staff</h2>
+  <h2 class="title">My Staff</h2>
+
+  <button
+  (click)="addEmployeeBtn(true)"
+  class="btn">Add</button>
+
+  <app-add-employee
+   *ngIf="addEmployeeFlag"
+   (addEmployee)="addEmployee($event)">[(addEmployee)]="addEmployee"</app-add-employee>
 
   <table class="employees">
     <tr>
       <th>Firstname</th>
       <th>Lastname</th>
       <th>Email</th>
+      <th>Salary</th>
       <th>Action</th>
     </tr>
     <tr
-    [class.selected]="employee === selectedEmployee"
+    [class.selected]="selectedEmployee?.includes(employee)"
     *ngFor="let employee of employees"
     >
       <td>
@@ -22,32 +31,19 @@
         {{employee.email}}
       </td>
       <td>
-        <button class="btn" (click)="editEmployee(employee)">Edit</button>
+        {{employee.salary}}
+      </td>
+      <td>
+        <button class="btn" (click)="addeditEmployee(employee)">Edit</button>
         <button class="btn" (click)="DeleteEmployee(employee)" >Remove</button>
       </td>
     </tr>
   </table>
 
-
-  <div class="selectedEmployee" *ngIf="selectedEmployee">
-
-    <h2>{{selectedEmployee.fname | uppercase}} {{selectedEmployee.lname | uppercase}} Details</h2>
-      <div>id: {{selectedEmployee.id}} </div>
-      <div>Date of birth: {{selectedEmployee.dateofbirth}}</div>
-      <form (ngSubmit)="endEditEmployee(selectedEmployee)">
-        <label for="employee-fname">Employee first name: </label>
-        <input id="employee-fname" [(ngModel)]="selectedEmployee.fname" placeholder="fname" name="fname">
-        <br>
-        <label for="employee-lname">Employee last name: </label>
-        <input id="employee-lname" [(ngModel)]="selectedEmployee.lname" placeholder="lname" name="lname">
-        <br>
-        <label for="employee-email">Employee email:</label>
-        <input id="employee-employee" [(ngModel)]="selectedEmployee.email" placeholder="email" name="email">
-        <br>
-        <label for="employee-salary"> Salary</label>
-        <input id="employee-employee" [(ngModel)]="selectedEmployee.salary" placeholder="salary" name="salary">
-        <br>
-        <input type="submit" value="save">
-      </form>
-    </div>
+  <div *ngIf="selectedEmployee!.length != 0">
+    <app-employee-detail
+    [selectedEmployee]=selectedEmployee (editedEmployee)="editEmployee($event)"></app-employee-detail>
+  </div>
 </div>
+
+<app-footer></app-footer>

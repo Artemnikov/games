@@ -9,9 +9,12 @@ import { EmployeesService } from 'src/app/services/employees.service';
 })
 
 export class EmployeesComponent implements OnInit {
+
   title = 'Employee Tracker';
   employees: Employee[] = []
-  selectedEmployee?: Employee
+  selectedEmployee: Employee[] = []
+
+  addEmployeeFlag : boolean = false
 
   constructor(private employeeSerive: EmployeesService) { }
 
@@ -23,21 +26,29 @@ export class EmployeesComponent implements OnInit {
     this.employeeSerive.getEmployees().subscribe((employee) => this.employees = employee)
   }
 
-  editEmployee ( employee:Employee ) {
-    this.selectedEmployee = employee
+  addEmployeeBtn (state: boolean) {
+    this.addEmployeeFlag = state
   }
 
-  @HostListener('window:keydown', ['$event'])
-  handleKeyDown(event: KeyboardEvent) {
-    if(event.key == 'Escape') delete this.selectedEmployee
+  addEmployee (event:any) {
+    this.employeeSerive.addEmployees(event).subscribe(() => this.employees.push(event))
+    this.addEmployeeBtn (false)
+  }
+
+  addeditEmployee ( employee:Employee ) {
+    this.selectedEmployee!.push(employee)
+  }
+
+  editEmployee (event: Employee []) {
+    console.log(event[0])
+    event.forEach(employee => {
+      this.employeeSerive.editEmployees(employee).subscribe(() => console.log('success'))
+    })
+    this.selectedEmployee = []
   }
 
   DeleteEmployee ( employee:Employee ) {
     this.employeeSerive.deleteEmployees(employee).subscribe(() => (this.employees = this.employees.filter(t => t.id !== employee.id)))
   }
 
-  endEditEmployee ( employee: Employee ) {
-    this.employeeSerive.editEmployees(employee).subscribe(() => this.initialize())
-    delete this.selectedEmployee
-  }
 }

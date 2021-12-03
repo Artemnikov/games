@@ -4,12 +4,23 @@
   box-sizing: border-box;
 }
 
+.title {
+  display: inline-block;
+  margin-right: 5rem;
+}
+
 .btn {
   font-size: 1.2rem;
   padding: 0.5em 1em;
   cursor: pointer;
   margin: 0.2em;
   border-radius: 0.5em;
+}
+
+.btn:hover {
+  color: #fff;
+  background: darkblue;
+
 }
 
 .employee_container {

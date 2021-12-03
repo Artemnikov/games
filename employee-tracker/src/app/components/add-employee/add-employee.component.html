@@ -1,1 +1,21 @@
-<p>add-employee works!</p>
+  <form (ngSubmit)="onCLick()">
+    <label for="id">identification number</label>
+    <input [(ngModel)]="newEmployee!.id" type="number" name="id" required>
+    <br>
+    <label for="fname">Firstname</label>
+    <input [(ngModel)]="newEmployee!.fname" placeholder="Firstname" name="fname" required>
+    <br>
+    <label for="lname">Lastname</label>
+    <input [(ngModel)]="newEmployee!.lname" placeholder="Lastname" name="lname" required>
+    <br>
+    <label for="dateOfBirth">Date of birth</label>
+    <input [(ngModel)]="newEmployee!.dateofbirth" placeholder="date Of Birth" name="dateOfBirth" required>
+    <br>
+    <label for="email">Email</label>
+    <input [(ngModel)]="newEmployee!.email" placeholder="Email" name="email" required>
+    <br>
+    <label for="salary">Salary</label>
+    <input [(ngModel)]="newEmployee!.salary" placeholder="Salary" name="salary" required>
+    <br>
+    <button class="btn">Add</button>
+  </form>

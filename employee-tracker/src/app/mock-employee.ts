@@ -1,12 +1,11 @@
 import { Employee } from "./employee-interface";
 
-export const employees:Employee[] = [
+export const employees:Employee=
   {
-    id: 323322321,
-    fname: 'aaar',
-    lname: 'pirate',
+    id: 0,
+    fname: '',
+    lname: '',
     salary: 0,
-    email: 'nope@gmail.com',
-    dateofbirth: '08/08/0088'
+    email: '',
+    dateofbirth: ''
   }
-]
