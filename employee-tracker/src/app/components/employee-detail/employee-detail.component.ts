@@ -17,11 +17,7 @@ export class EmployeeDetailComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  endEditEmployee ( employee: Employee ) {
+  endEditEmployee () {
     this.editedEmployee.emit(this.selectedEmployee)
-  }
-
-  resetEmployee ( ) {
-    this.selectedEmployee = []
   }
 }

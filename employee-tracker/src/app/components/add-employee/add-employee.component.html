@@ -1,21 +1,21 @@
-  <form (ngSubmit)="onCLick()">
+<form (ngSubmit)="onCLick()" *ngFor="let employee of newEmployee">
     <label for="id">identification number</label>
-    <input [(ngModel)]="newEmployee!.id" type="number" name="id" required>
-    <br>
+    <input [(ngModel)]="employee.id" type="number" name="id" required>
+
     <label for="fname">Firstname</label>
-    <input [(ngModel)]="newEmployee!.fname" placeholder="Firstname" name="fname" required>
-    <br>
+    <input [(ngModel)]="employee.fname" placeholder="Firstname" name="fname" required>
+
     <label for="lname">Lastname</label>
-    <input [(ngModel)]="newEmployee!.lname" placeholder="Lastname" name="lname" required>
-    <br>
+    <input [(ngModel)]="employee.lname" placeholder="Lastname" name="lname" required>
+
     <label for="dateOfBirth">Date of birth</label>
-    <input [(ngModel)]="newEmployee!.dateofbirth" placeholder="date Of Birth" name="dateOfBirth" required>
-    <br>
+    <input [(ngModel)]="employee.dateofbirth" placeholder="date Of Birth" name="dateOfBirth" required>
+
     <label for="email">Email</label>
-    <input [(ngModel)]="newEmployee!.email" placeholder="Email" name="email" required>
-    <br>
+    <input [(ngModel)]="employee.email" placeholder="Email" name="email" required>
+
     <label for="salary">Salary</label>
-    <input [(ngModel)]="newEmployee!.salary" placeholder="Salary" name="salary" required>
-    <br>
+    <input [(ngModel)]="employee.salary" placeholder="Salary" name="salary" required>
+
     <button class="btn">Add</button>
-  </form>
+</form>

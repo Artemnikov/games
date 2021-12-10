@@ -30,12 +30,13 @@ export class EmployeesComponent implements OnInit {
     this.addEmployeeFlag = state
   }
 
-  addEmployee (event:any) {
-    this.employeeSerive.addEmployees(event).subscribe(() => this.employees.push(event))
-    this.addEmployeeBtn (false)
+  addEmployee (event: any) {
+    this.employeeSerive.addEmployees(event[0]).subscribe(() => this.employees.push(event[0]))
+    this.addEmployeeBtn(false)
   }
 
   addeditEmployee ( employee:Employee ) {
+    if(this.selectedEmployee.includes(employee)) return
     this.selectedEmployee!.push(employee)
   }
 
@@ -48,7 +49,8 @@ export class EmployeesComponent implements OnInit {
   }
 
   DeleteEmployee ( employee:Employee ) {
-    this.employeeSerive.deleteEmployees(employee).subscribe(() => (this.employees = this.employees.filter(t => t.id !== employee.id)))
+
+    this.employeeSerive.deleteEmployees(employee).subscribe(() => (this.employees = this.employees.filter(e => e.id != employee.id)))
   }
 
 }

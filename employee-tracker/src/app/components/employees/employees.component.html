@@ -1,49 +1,39 @@
-<div class="employee_container">
-  <h2 class="title">My Staff</h2>
+<main>
+    <h2 class="title">Dashboard</h2>
+    <div class="new_employee">
+        <button (click)="addEmployeeBtn(true)" class="btn">Add</button>
 
-  <button
-  (click)="addEmployeeBtn(true)"
-  class="btn">Add</button>
+        <app-add-employee *ngIf="addEmployeeFlag" (addEmployee)="addEmployee($event)">[(addEmployee)]="addEmployee"</app-add-employee>
+    </div>
 
-  <app-add-employee
-   *ngIf="addEmployeeFlag"
-   (addEmployee)="addEmployee($event)">[(addEmployee)]="addEmployee"</app-add-employee>
+    <table class="employees">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+            <th>Salary</th>
+            <th>Action</th>
+        </tr>
+        <tr [class.selected]="selectedEmployee?.includes(employee)" *ngFor="let employee of employees" (click)="addeditEmployee(employee)">
+            <td>
+                {{employee.fname}}
+            </td>
+            <td>
+                {{employee.lname}}
+            </td>
+            <td>
+                {{employee.email}}
+            </td>
+            <td>
+                {{employee.salary}}
+            </td>
+            <td>
+                <button class="btn" (click)="DeleteEmployee(employee)">Remove</button>
+            </td>
+        </tr>
+    </table>
 
-  <table class="employees">
-    <tr>
-      <th>Firstname</th>
-      <th>Lastname</th>
-      <th>Email</th>
-      <th>Salary</th>
-      <th>Action</th>
-    </tr>
-    <tr
-    [class.selected]="selectedEmployee?.includes(employee)"
-    *ngFor="let employee of employees"
-    >
-      <td>
-        {{employee.fname}}
-      </td>
-      <td>
-        {{employee.lname}}
-      </td>
-      <td>
-        {{employee.email}}
-      </td>
-      <td>
-        {{employee.salary}}
-      </td>
-      <td>
-        <button class="btn" (click)="addeditEmployee(employee)">Edit</button>
-        <button class="btn" (click)="DeleteEmployee(employee)" >Remove</button>
-      </td>
-    </tr>
-  </table>
-
-  <div *ngIf="selectedEmployee!.length != 0">
-    <app-employee-detail
-    [selectedEmployee]=selectedEmployee (editedEmployee)="editEmployee($event)"></app-employee-detail>
-  </div>
-</div>
-
-<app-footer></app-footer>
+    <div *ngIf="selectedEmployee!.length != 0">
+        <app-employee-detail [selectedEmployee]=selectedEmployee (editedEmployee)="editEmployee($event)"></app-employee-detail>
+    </div>
+</main>

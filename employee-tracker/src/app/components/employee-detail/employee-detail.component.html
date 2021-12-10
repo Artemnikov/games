@@ -1,18 +1,22 @@
-<form *ngFor="let employee of selectedEmployee" (ngSubmit)="endEditEmployee(employee)">
-  <h2>{{employee.fname | uppercase}} {{employee.lname | uppercase}} Details</h2>
+<div class="container" *ngFor="let employee of selectedEmployee">
+    <h2>{{employee.fname | uppercase}} {{employee.lname | uppercase}}</h2>
     <div>id: {{employee.id}} </div>
     <div>Date of birth: {{employee.dateofbirth}}</div>
-  <label for="employee-fname">Employee first name: </label>
-  <input id="employee-fname" [(ngModel)]="employee.fname" placeholder="fname" name="fname">
-  <br>
-  <label for="employee-lname">Employee last name: </label>
-  <input id="employee-lname" [(ngModel)]="employee.lname" placeholder="lname" name="lname">
-  <br>
-  <label for="employee-email">Employee email:</label>
-  <input id="employee-employee" [(ngModel)]="employee.email" placeholder="email" name="email">
-  <br>
-  <label for="employee-salary"> Salary</label>
-  <input id="employee-employee" [(ngModel)]="employee.salary" placeholder="salary" name="salary">
-  <br>
-  <input type="submit" value="save">
-</form>
+
+    <form class="form">
+        <label for="employee-fname">Firstname: </label>
+        <input id="employee-fname" [(ngModel)]="employee.fname" placeholder="fname" name="fname">
+
+        <label for="employee-lname">Lastname: </label>
+        <input id="employee-lname" [(ngModel)]="employee.lname" placeholder="lname" name="lname">
+
+        <label for="employee-email">Email:</label>
+        <input id="employee-employee" [(ngModel)]="employee.email" placeholder="email" name="email">
+
+        <label for="employee-salary">Salary</label>
+        <input id="employee-employee" [(ngModel)]="employee.salary" placeholder="salary" name="salary">
+    </form>
+
+
+</div>
+<button class="btn" (click)="endEditEmployee()">Save</button>

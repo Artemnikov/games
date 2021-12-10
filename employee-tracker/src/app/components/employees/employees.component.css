@@ -1,58 +1,48 @@
-*{
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
-.title {
-  display: inline-block;
-  margin-right: 5rem;
-}
-
-.btn {
-  font-size: 1.2rem;
-  padding: 0.5em 1em;
-  cursor: pointer;
-  margin: 0.2em;
-  border-radius: 0.5em;
-}
-
-.btn:hover {
-  color: #fff;
-  background: darkblue;
-
-}
-
-.employee_container {
-  width: max-content;
-  margin: 20vh auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
+main {
+    width: max-content;
+    margin: 10vh auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
 }
 
 .employees {
-  text-align: center;
-  border: 2px solid black;
+    border-bottom: 2px solid #009879;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
 }
 
+.employees tr:first-child {
+    background: #009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.employees td,
 .employees th {
-  border-bottom: 1px solid black;
+    padding: 12px 15px;
 }
 
-.employees td, .employees th {
-  border-left: 1px solid black;
-  padding: 0.8em 1.5em;
+.employees tr:not(:first-child):nth-of-type(odd) {
+    background: #e7e7e7;
+}
+
+.employees tr:not(:first-child):hover {
+    cursor: pointer;
+    background: rgb(122, 120, 120);
+    color: white;
 }
 
 .selected {
-  background-color: blue;
-  color: white;
+    border-left: 0.5rem solid black;
 }
 
 .selected input {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .selectedEmployee input {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
