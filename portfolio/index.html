@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="img/logo.PNG">
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="./styles/mobile_nav.css" />
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+  <script src="./scripts/scripts.js" defer type="module"></script>
+  <script src="./scripts/hamburger.js" defer type="module"></script>
+  <title>Artem's place</title>
+</head>
+
+<body>
+  <nav class="mobile_nav">
+    <button class="to_about">About</button>
+    <button class="to_works">projects</button>
+    <button class="to_contact">Say Hello</button>
+  </nav>
+  <header>
+    <a href="/"> <img src="./img/logo.PNG" alt="" /> </a>
+    <nav class="nav_bar">
+      <button class="btn to_about">About</button>
+      <button class="btn to_works">projects</button>
+      <button class="btn to_contact">Say Hello</button>
+    </nav>
+    <button class="hamburger">
+      <div class="bar"></div>
+    </button>
+  </header>
+
+
+  <main>
+    <section class="hero">
+      <h1>Front-End Developer</h1>
+      <h2>I code the client-side program and i love what i do!</h2>
+      <img src="./img/profilepicture.jpg" alt="" />
+      <div class="language_wrapper">
+        <p>Hello</p>
+        <p>Привет</p>
+        <p>שלום</p>
+      </div>
+      <select id="languages"
+        onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value)">
+        <option>Choose Language</option>
+        <option value="/RU">Русский</option>
+        <option value="/HE">עברית</option>
+      </select>
+      <img class="hero_svg" src="./img/hero.svg" alt="" />
+    </section>
+
+    <section>
+      <div class="about">
+        <h2>Hi, I'm Artem. Nice to meet you.</h2>
+        <p>
+          Since beginning my journey as a freelance Embedded Systems
+          programmer 3 years ago, i've switched to web development last year,
+          i made some small projects showcasing my skill. I'm quite
+          confident in my ability to solve problems and open minded, naturally curius and always looking to
+          improve my skills.
+        </p>
+      </div>
+      <div class="experties">
+        <div class="box">
+          <i class="fas fa-code fa-4x"></i>
+          <h2>Front-end</h2>
+          <p>
+            I like to code things from scratch, and enjoy bringing ideas to
+            life in the browser.
+          </p>
+          <h3>Languages i Speak:</h3>
+          <p>HTML, CSS, JavaScript</p>
+          <h3>Tools i use:</h3>
+          <ul>
+            <li>React</li>
+            <li>Angular</li>
+            <li>GitHub</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+        <div class="box">
+          <i class="fas fa-server fa-4x"></i>
+          <h2>Back-End</h2>
+          <p>I enjoy bringing my works online and working with databases</p>
+          <h3>Languages i think in:</h3>
+          <ul>
+            <li>PHP</li>
+          </ul>
+          <h3>Tools i use</h3>
+          <ul>
+            <li>WordPress</li>
+            <li>MySql</li>
+          </ul>
+        </div>
+    </section>
+    <section>
+      <div class="projects_title">
+        <h2>My Recent Work</h2>
+        <p>Here are few Projects i've worked on. Want to see more?
+          <a href="mailto:sartem.meshkov@gmail.com">Email me</a>
+        </p>
+      </div>
+      <div class="projects">
+        <div class="project">
+          <img src="./img/projects/memCardGame/Game_preview.png" alt="" />
+          <div>
+            <h2>Memory card game</h2>
+            <p>Simple Memory game, developed in a team as a exam of our team management and programming skills.</p>
+            <a class="btn" href="memoryCardGame/">Open Project =></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="./img/projects/snake/preview.PNG" alt="" />
+          <div>
+            <h2>Snake</h2>
+            <p>Simple Snake, developed using HTML Canvas, CSS Grid and good old JavaScript.</p>
+            <a class="btn" href="snake">Open Project =></a>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="./img/projects/weatherApp/preview.PNG" alt="" />
+          <div>
+            <h2>Weather App</h2>
+            <p>Weather web application based on using api to fetch data from another server.</p>
+            <a class="btn" href="weatherApp">Open Project =></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./img/projects/landing1/preview.PNG" alt="" />
+          <div>
+            <h2>Ladning page</h2>
+            <p>Fake landing page site, just a template for a real project. Created using HTML CSS and JavaScript.</p>
+            <a class="btn" href="landing1">Open Project =></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="./img/projects/gainguard/welcome.jpg" alt="">
+          <div>
+            <h2>GainGuard</h2>
+            <p>Landing page for a startup company. Developed using HTML CSS JavaScript. This project is not finished yet.</p>
+            <a class="btn" href="https://gainguard.io/">Open Project =></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="work" id="contact_froms">
+      <h1>Lets work?</h1>
+      <p>I'm always open to new ideas and working with a team</p>
+      <a class="btn" href="https://wa.me/+972508147511">Start a conversation</a>
+    </div>
+
+    <div class="contact_space">
+      <form id="contact_form" method="POST">
+        <h2 class="thank_you_h hide">Thank you. I got your mail!</h2>
+        <input id="form_name" type="text" name="name" placeholder="Name" required>
+        <input id="form_mail" type="email" name="email" placeholder="Email" required>
+        <textarea id="form_text" name="text" cols="30" rows="5" placeholder="Let your mind speak!" required></textarea>
+        <button id="form_btn">submit</button>
+      </form>
+
+      <div class="center">
+        <h2>Living, learning & leveling up <br />one day at a time</h2>
+        <nav class="links">
+          <h2>My personal phone / email</h2>
+          <a href="mailto:sartem.meshkov@gmail.com"><i class="far fa-envelope fa-1x"></i></a>
+          <a href="tel:+972508147511"><i class="fas fa-phone fa-1x"></i></a>
+        </nav>
+        <a href="./php/Resume.pdf" download rel="noopener noreferrer" target="_blank">
+          <p> Download CV</p>
+        </a>
+      </div>
+
+      <nav class=" right links">
+        <h2>Follow me on social media</h2>
+        <a href="https://www.linkedin.com/in/artem-meshkov-3186401a5/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="https://www.facebook.com/mashkov.artem.9"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://github.com/Artemnikov"><i class="fab fa-github fa-2x"></i></a>
+      </nav>
+    </div>
+    <button class="back_to_top"><i class="far fa-arrow-alt-circle-up fa-4x"></i></button>
+  </footer>
+</body>
+
+</html>
