@@ -1,0 +1,5 @@
+export { Navbar } from './navbar/Navbar'
+export { Contact } from './contact/Contact'
+export { Hero } from './hero/Hero'
+export { Works } from './works/Works'
+export { Portfolio } from './portfolio/Portfolio'
