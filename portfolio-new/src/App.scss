@@ -1,19 +1,19 @@
 .App {
     height: 100vh;
+    overflow-y: hidden;
     .sections{
         width: 100%;
-        height: calc(100vh - 75px);
+        height: calc(100vh - 70px);
         background: lightsalmon;
         position: relative;
         top: 70px;
         scroll-snap-type: y mandatory;
         scroll-behavior: smooth;
-
+        font-family: sans-serif;
         > * {
             scroll-snap-align: start;
             width: 100vw;
             height: calc(100vh - 75px);
-            outline: 2px solid black;
         }
     }
 } 

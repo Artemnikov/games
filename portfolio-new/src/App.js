@@ -1,12 +1,14 @@
 import './App.scss';
-import { Navbar, Contact, Hero, Works, Portfolio} from './components/index'
+import { Navbar, Contact, Hero, Works, Portfolio, Menu} from './components/index'
 import { useState } from 'react';
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
+
   return (
     <div className="App">
-      <Navbar menuOpen={menuOpen} setMenuOPen={setMenuOpen} />
+      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Hero />
         <Portfolio />
