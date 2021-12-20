@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  input {
+    font-size: 1.3rem;
+    width: 20rem;
+  }
+
+  textarea {
+    font-size: 1.3rem;
+    font-family: inherit;
+  }
+}

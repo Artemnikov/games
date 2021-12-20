@@ -1,22 +1,32 @@
-<div class="container" *ngFor="let employee of selectedEmployee">
-    <h2>{{employee.fname | uppercase}} {{employee.lname | uppercase}}</h2>
-    <div>id: {{employee.id}} </div>
-    <div>Date of birth: {{employee.dateofbirth}}</div>
+<div class="container" >
 
-    <form class="form">
-        <label for="employee-fname">Firstname: </label>
-        <input id="employee-fname" [(ngModel)]="employee.fname" placeholder="fname" name="fname">
+  <form class="form" *ngFor="let employee of selectedEmployee">
+    <div class="info">
+      <h3>{{employee.fname | uppercase}} {{employee.lname | uppercase}}</h3>
+      <p>id: {{employee.id}} </p>
+      <p>Date of birth: {{employee.dateofbirth}}</p>
+    </div>
+      <label for="employee-fname">Firstname: </label>
+      <input id="employee-fname" [(ngModel)]="employee.fname" placeholder="fname" name="fname">
 
-        <label for="employee-lname">Lastname: </label>
-        <input id="employee-lname" [(ngModel)]="employee.lname" placeholder="lname" name="lname">
+      <label for="employee-lname">Lastname: </label>
+      <input id="employee-lname" [(ngModel)]="employee.lname" placeholder="lname" name="lname">
 
-        <label for="employee-email">Email:</label>
-        <input id="employee-employee" [(ngModel)]="employee.email" placeholder="email" name="email">
+      <label for="employee-email">Email:</label>
+      <input id="employee-employee" [(ngModel)]="employee.email" placeholder="email" name="email">
 
-        <label for="employee-salary">Salary</label>
-        <input id="employee-employee" [(ngModel)]="employee.salary" placeholder="salary" name="salary">
+      <label for="employee-salary">Salary</label>
+      <input id="employee-employee" [(ngModel)]="employee.salary" placeholder="salary" name="salary">
+
+
+      <div class="btn_container">
+        <label for="topEmployee">Top Employee?</label>
+        <input class="checkbox" type="checkbox" name="topEmployee">
+        <button class="btn" (click)="endEditEmployee()">Save</button>
+        <button class="btn" (click)="createMessage()">Send Message</button>
+      </div>
+      <app-message *ngIf="status" [employeeid]=employee.id></app-message>
     </form>
 
 
 </div>
-<button class="btn" (click)="endEditEmployee()">Save</button>

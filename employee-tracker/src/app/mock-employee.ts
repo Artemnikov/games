@@ -7,6 +7,7 @@ export const employees :Employee[] = [
     lname: '',
     salary: 0,
     email: '',
-    dateofbirth: ''
+    dateofbirth: '',
+    topEmployee: false
   }
 ]

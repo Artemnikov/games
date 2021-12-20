@@ -5,16 +5,14 @@ import { EmployeesService } from 'src/app/services/employees.service';
 @Component({
   selector: 'app-employees',
   templateUrl: './employees.component.html',
-  styleUrls: ['./employees.component.css']
+  styleUrls: ['./employees.component.scss']
 })
 
 export class EmployeesComponent implements OnInit {
-
-  title = 'Employee Tracker';
+  statusAddEmployee: boolean = false
   employees: Employee[] = []
   selectedEmployee: Employee[] = []
 
-  addEmployeeFlag : boolean = false
 
   constructor(private employeeSerive: EmployeesService) { }
 
@@ -26,17 +24,23 @@ export class EmployeesComponent implements OnInit {
     this.employeeSerive.getEmployees().subscribe((employee) => this.employees = employee)
   }
 
-  addEmployeeBtn (state: boolean) {
-    this.addEmployeeFlag = state
+  addEmployeeBtn () {
+    this.statusAddEmployee = !this.statusAddEmployee
   }
 
   addEmployee (event: any) {
     this.employeeSerive.addEmployees(event[0]).subscribe(() => this.employees.push(event[0]))
-    this.addEmployeeBtn(false)
+    this.addEmployeeBtn()
   }
 
   addeditEmployee ( employee:Employee ) {
-    if(this.selectedEmployee.includes(employee)) return
+    if(this.selectedEmployee.includes(employee)){
+      this.selectedEmployee = this.selectedEmployee.filter(e => {
+        return e.id != employee.id
+      })
+      return
+    }
+    console.log(this.selectedEmployee)
     this.selectedEmployee!.push(employee)
   }
 
@@ -49,8 +53,8 @@ export class EmployeesComponent implements OnInit {
   }
 
   DeleteEmployee ( employee:Employee ) {
-
     this.employeeSerive.deleteEmployees(employee).subscribe(() => (this.employees = this.employees.filter(e => e.id != employee.id)))
   }
+
 
 }

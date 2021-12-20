@@ -5,4 +5,5 @@ export interface Employee{
   dateofbirth: string
   salary: number
   email: string
+  topEmployee: boolean
 }

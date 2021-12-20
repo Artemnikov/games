@@ -5,7 +5,7 @@ import { employees } from 'src/app/mock-employee';
 @Component({
   selector: 'app-add-employee',
   templateUrl: './add-employee.component.html',
-  styleUrls: ['./add-employee.component.css']
+  styleUrls: ['./add-employee.component.scss']
 })
 
 export class AddEmployeeComponent implements OnInit {
@@ -21,6 +21,7 @@ export class AddEmployeeComponent implements OnInit {
   }
 
   onCLick () {
+    if(employees[0].id == 0) return
     this.addEmployee.emit(this.newEmployee)
   }
 }

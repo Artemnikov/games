@@ -4,7 +4,7 @@ import { Employee } from 'src/app/employee-interface';
 @Component({
   selector: 'app-employee-detail',
   templateUrl: './employee-detail.component.html',
-  styleUrls: ['./employee-detail.component.css']
+  styleUrls: ['./employee-detail.component.scss']
 })
 
 export class EmployeeDetailComponent implements OnInit {
@@ -14,10 +14,15 @@ export class EmployeeDetailComponent implements OnInit {
 
   constructor() { }
 
+  status: boolean = false
   ngOnInit(): void {
   }
 
   endEditEmployee () {
     this.editedEmployee.emit(this.selectedEmployee)
+  }
+
+  createMessage () {
+    this.status = !this.status
   }
 }

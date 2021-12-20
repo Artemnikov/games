@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http'
 import { Observable } from 'rxjs';
-import { Employee } from '../employee-interface';
 
+import { Employee } from '../employee-interface';
+import { Message } from '../Message-interface';
 
 @Injectable({
   providedIn: 'root'
@@ -34,8 +35,14 @@ export class EmployeesService {
       "lname": employee.lname,
       "dateofbirth": employee.dateofbirth,
       "salary": employee.salary,
-      "email": employee.email
-    }
-    )
+      "email": employee.email,
+      "topEmployee": employee.topEmployee
+    })}
+
+    saveMessage (message:Message): Observable<Message>
+    {
+      const url = `${this.apiurl}/${message.id}`
+      return this.http.post<Message>(url, message.body)
     }
 }
+``

@@ -2,6 +2,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
+    height: 50px;
     background: darkblue;
     color: white;
     display: flex;
@@ -16,7 +17,7 @@ footer {
     gap: 1rem;
 }
 
-a { 
+a {
     text-decoration: none;
     color: inherit;
 }

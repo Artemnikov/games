@@ -2,19 +2,12 @@
   "employees": [
     {
       "id": 323322321,
-      "fname": "artema",
-      "lname": "emshkov@",
-      "dateofbirth": "yesturdy",
-      "salary": "Old boots2",
-      "email": "sartem.meshkov@gmaik.com"
-    },
-    {
-      "id": 323322332,
       "fname": "Artem",
-      "lname": "Asras",
+      "lname": "Meshkov",
+      "salary": "dsgas",
+      "email": "asdg",
       "dateofbirth": "asd",
-      "salary": "asdgasdg",
-      "email": "sadgf"
+      "topEmployee": false
     }
   ]
 }

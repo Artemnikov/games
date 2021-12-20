@@ -67,12 +67,14 @@ const top = document.getElementsByClassName('back_to_top')[0]
 const setup = [about]
 
 // count visitor
+console.log('1')
 fetch('https://api.countapi.xyz/update/artemishkov/?amount=1')
-    .then(data => data.json())
+    .then(data => data.json)
     .then(data => {
+        console.log(data)
         console.log("Hey console seeker!. You are the: " + data.value + "nth visitor!")
     })
-
+console.log('2')
 // get user location
 fetch("https://api.ipify.org?format=json")
     .then(response => response.json())
