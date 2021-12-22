@@ -4,10 +4,36 @@
       "id": 323322321,
       "fname": "Artem",
       "lname": "Meshkov",
+      "dateofbirth": "asd",
       "salary": "dsgas",
       "email": "asdg",
-      "dateofbirth": "asd",
-      "topEmployee": false
+      "topEmployee": true
+    }
+  ],
+  "messages": [
+    {
+      "idn": 323322321,
+      "to": "Artem Meshkov",
+      "cc": "asdgds",
+      "subject": "sdaha",
+      "message": "fdsh",
+      "id": 1
+    },
+    {
+      "idn": 323322321,
+      "to": "Artem Meshkov",
+      "cc": "asdgds",
+      "subject": "sdaha",
+      "message": "fdshasgasdg",
+      "id": 2
+    },
+    {
+      "idn": 323322321,
+      "to": "Artem Meshkov",
+      "cc": "asdgds",
+      "subject": "sdaha",
+      "message": "fdshfgjasgasdg",
+      "id": 3
     }
   ]
 }

@@ -19,7 +19,12 @@ export class EmployeeDetailComponent implements OnInit {
   }
 
   endEditEmployee () {
+    console.log(this.selectedEmployee)
     this.editedEmployee.emit(this.selectedEmployee)
+  }
+
+  topEmployee(employee: Employee) {
+    employee.topEmployee = !employee.topEmployee
   }
 
   createMessage () {

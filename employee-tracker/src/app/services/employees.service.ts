@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http'
+import { HttpClient } from '@angular/common/http'
 import { Observable } from 'rxjs';
 
 import { Employee } from '../employee-interface';
@@ -10,6 +10,7 @@ import { Message } from '../Message-interface';
 })
 export class EmployeesService {
   private apiurl = 'http://localhost:5000/employees'
+  private messageurl = 'http://localhost:5000/messages'
 
   constructor(private http: HttpClient) { }
 
@@ -38,11 +39,4 @@ export class EmployeesService {
       "email": employee.email,
       "topEmployee": employee.topEmployee
     })}
-
-    saveMessage (message:Message): Observable<Message>
-    {
-      const url = `${this.apiurl}/${message.id}`
-      return this.http.post<Message>(url, message.body)
-    }
 }
-``

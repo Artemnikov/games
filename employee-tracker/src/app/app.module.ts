@@ -7,12 +7,12 @@ import { EmployeesComponent } from './components/employees/employees.component';
 import { AddEmployeeComponent } from './components/add-employee/add-employee.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { EmployeeDetailComponent } from './components/employee-detail/employee-detail.component';
-import { MessageComponent } from './components/message/message.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { Router, RouterModule } from '@angular/router';
+import { SendmailComponent } from './components/sendmail/sendmail.component';
 
 
 @NgModule({
@@ -22,9 +22,9 @@ import { Router, RouterModule } from '@angular/router';
     AddEmployeeComponent,
     FooterComponent,
     EmployeeDetailComponent,
-    MessageComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    SendmailComponent
   ],
   imports: [
     BrowserModule,
