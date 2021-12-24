@@ -17,4 +17,8 @@ export class SendEmailMessageService {
   saveEmail( email:Email ): Observable<Email> {
     return this.http.post<Email>(this.url, email)
   }
+
+  getEmail ( id: number ): Observable<Email[]> {
+    return this.http.get<Email[]>(this.url)
+  }
 }

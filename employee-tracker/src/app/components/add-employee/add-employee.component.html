@@ -1,20 +1,20 @@
-<form (ngSubmit)="onCLick()" *ngFor="let employee of newEmployee">
+<form (ngSubmit)="onCLick()">
     <label for="id">identification number</label>
-    <input [(ngModel)]="employee.id" type="number" name="id" required>
+    <input [(ngModel)]="newEmployee.id" type="number" name="id" required>
 
     <label for="fname">Firstname</label>
-    <input [(ngModel)]="employee.fname" placeholder="Firstname" name="fname" required>
+    <input [(ngModel)]="newEmployee.fname" placeholder="Firstname" name="fname" required>
 
     <label for="lname">Lastname</label>
-    <input [(ngModel)]="employee.lname" placeholder="Lastname" name="lname" required>
+    <input [(ngModel)]="newEmployee.lname" placeholder="Lastname" name="lname" required>
 
     <label for="dateOfBirth">Date of birth</label>
-    <input [(ngModel)]="employee.dateofbirth" placeholder="date Of Birth" name="dateOfBirth" required>
+    <input [(ngModel)]="newEmployee.dateofbirth" placeholder="date Of Birth" name="dateOfBirth" required>
 
     <label for="email">Email</label>
-    <input [(ngModel)]="employee.email" placeholder="Email" name="email" required>
+    <input [(ngModel)]="newEmployee.email" placeholder="Email" name="email" required>
 
     <label for="salary">Salary</label>
-    <input [(ngModel)]="employee.salary" placeholder="Salary" name="salary" required>
+    <input [(ngModel)]="newEmployee.salary" placeholder="Salary" name="salary" required>
     <button class="btn">Add</button>
-  </form>
+</form>

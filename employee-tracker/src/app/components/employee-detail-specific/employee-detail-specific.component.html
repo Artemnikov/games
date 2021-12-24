@@ -26,4 +26,8 @@
         </div>
         <app-sendmail *ngIf="status" [employee]=employee></app-sendmail>
     </form>
+    <div class="messages" *ngFor="let email of emails">
+        <h2>{{email.subject}}</h2>
+        <p>{{email.message}}</p>
+    </div>
 </div>

@@ -29,7 +29,7 @@ export class EmployeesComponent implements OnInit {
   }
 
   addEmployee (event: any) {
-    this.employeeSerive.addEmployees(event[0]).subscribe(() => this.employees.push(event[0]))
+    this.employeeSerive.addEmployees(event).subscribe(() => this.employees.push(event))
     this.addEmployeeBtn()
   }
 

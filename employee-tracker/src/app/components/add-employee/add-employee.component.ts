@@ -10,9 +10,9 @@ import { employees } from 'src/app/mock-employee';
 
 export class AddEmployeeComponent implements OnInit {
 
-  @Output() addEmployee = new EventEmitter<Employee[]>()
+  @Output() addEmployee = new EventEmitter<Employee>()
 
-  newEmployee?: Employee[]
+  newEmployee!: Employee
 
   constructor() { }
 
@@ -21,7 +21,7 @@ export class AddEmployeeComponent implements OnInit {
   }
 
   onCLick () {
-    if(employees[0].id == 0) return
+    if(employees.id == 0) return
     this.addEmployee.emit(this.newEmployee)
   }
 }
