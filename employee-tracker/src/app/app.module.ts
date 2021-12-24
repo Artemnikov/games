@@ -13,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { Router, RouterModule } from '@angular/router';
 import { SendmailComponent } from './components/sendmail/sendmail.component';
+import { EmployeeDetailSpecificComponent } from './components/employee-detail-specific/employee-detail-specific.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { SendmailComponent } from './components/sendmail/sendmail.component';
     EmployeeDetailComponent,
     HomeComponent,
     HeaderComponent,
-    SendmailComponent
+    SendmailComponent,
+    EmployeeDetailSpecificComponent
   ],
   imports: [
     BrowserModule,

@@ -18,14 +18,18 @@ export class EmployeesService {
     return this.http.get<Employee[]>(this.apiurl)
   }
 
+  getEmployee (id: number): Observable<Employee> {
+    const api = `${this.apiurl}/${id}`
+    return this.http.get<Employee>(api)
+  }
+
   deleteEmployees (employee:Employee): Observable<Employee> {
     const url = `${this.apiurl}/${employee.id}`
     return this.http.delete<Employee>(url)
   }
 
   addEmployees (employee:Employee): Observable<Employee> {
-    return this.http.post<Employee>(this.apiurl,
-      employee)
+    return this.http.post<Employee>(this.apiurl,employee)
   }
 
   editEmployees (employee:Employee) {

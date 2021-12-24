@@ -12,14 +12,15 @@ export class EmployeeDetailComponent implements OnInit {
   @Input() selectedEmployee!: Employee[]
   @Output() editedEmployee = new EventEmitter
 
-  constructor() { }
+  constructor(){
+   }
 
   status: boolean = false
+
   ngOnInit(): void {
   }
 
   endEditEmployee () {
-    console.log(this.selectedEmployee)
     this.editedEmployee.emit(this.selectedEmployee)
   }
 
