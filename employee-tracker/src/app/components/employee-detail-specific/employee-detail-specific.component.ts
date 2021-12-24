@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Employee } from 'src/app/employee-interface';
 import { EmployeesService } from 'src/app/services/employees.service';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-employee-detail-specific',
@@ -20,7 +21,6 @@ export class EmployeeDetailSpecificComponent implements OnInit {
     ) { }
 
   ngOnInit(): void {
-    console.log('loading')
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.employeeService.getEmployee(id).subscribe((employee) => this.employee = employee)
   }

@@ -3,8 +3,6 @@
     flex-direction: row;
     gap: 2rem;
     flex-wrap: wrap;
-    border: 2px solid darkblue;
-    border-radius: 0.5em;
     padding: 1rem;
     h3 {
         text-align: center;
@@ -21,7 +19,7 @@
             background: black;
         }
     }
-    .form {
+    form {
         background: white;
         display: flex;
         flex-direction: column;
