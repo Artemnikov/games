@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { Router, RouterModule } from '@angular/router';
 import { SendmailComponent } from './components/sendmail/sendmail.component';
 import { EmployeeDetailSpecificComponent } from './components/employee-detail-specific/employee-detail-specific.component';
+import { SearchEmployeeComponent } from './components/search-employee/search-employee.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { EmployeeDetailSpecificComponent } from './components/employee-detail-sp
     HomeComponent,
     HeaderComponent,
     SendmailComponent,
-    EmployeeDetailSpecificComponent
+    EmployeeDetailSpecificComponent,
+    SearchEmployeeComponent
   ],
   imports: [
     BrowserModule,

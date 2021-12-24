@@ -26,6 +26,6 @@
 
 
     <div class="employee_detail" *ngIf="selectedEmployee!.length != 0">
-      <app-employee-detail class="message" [selectedEmployee]=selectedEmployee (editedEmployee)="editEmployee($event)"></app-employee-detail>
+      <app-employee-detail class="message" [selectedEmployee]=selectedEmployee (editedEmployee)="editEmployee()"></app-employee-detail>
     </div>
 </div>

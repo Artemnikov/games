@@ -44,13 +44,13 @@ export class EmployeesComponent implements OnInit {
     this.selectedEmployee!.push(employee)
   }
 
-  editEmployee (event: Employee []) {
-    console.log(event[0])
-    event.forEach(employee => {
+  editEmployee () {
+    this.selectedEmployee.forEach(employee => {
       this.employeeSerive.editEmployees(employee).subscribe(() => console.log('success'))
     })
     this.selectedEmployee = []
   }
+
 
   DeleteEmployee ( employee:Employee ) {
     this.employeeSerive.deleteEmployees(employee).subscribe(() => (this.employees = this.employees.filter(e => e.id != employee.id)))

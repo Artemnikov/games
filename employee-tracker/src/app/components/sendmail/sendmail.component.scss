@@ -1,0 +1,12 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    input {
+        font-size: inherit;
+        border: 1px solid black;
+    }
+    textaerea {
+        font-size: 1.5rem;
+    }
+}

@@ -24,7 +24,7 @@ export class EmployeeDetailComponent implements OnInit {
     this.editedEmployee.emit(this.selectedEmployee)
   }
 
-  topEmployee(employee: Employee) {
+  topEmployee(employee: Employee): void {
     employee.topEmployee = !employee.topEmployee
   }
 

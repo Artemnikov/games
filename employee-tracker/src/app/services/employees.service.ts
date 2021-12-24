@@ -9,7 +9,6 @@ import { Employee } from '../employee-interface';
 })
 export class EmployeesService {
   private apiurl = 'http://localhost:5000/employees'
-  private messageurl = 'http://localhost:5000/messages'
 
   constructor(private http: HttpClient) { }
 
@@ -31,7 +30,7 @@ export class EmployeesService {
     return this.http.post<Employee>(this.apiurl,employee)
   }
 
-  editEmployees (employee:Employee) {
+  editEmployees ( employee: Employee ) {
     const url = `${this.apiurl}/${employee.id}`
     return this.http.put(url, {
       "id": employee.id,

@@ -24,8 +24,9 @@
             <button class="btn" (click)="endEditEmployee()">Save</button>
             <button class="btn" (click)="createMessage()">Send Message</button>
         </div>
-        <app-sendmail *ngIf="status" [employee]=employee></app-sendmail>
+        <app-sendmail (endEmail)="createMessage()" *ngIf="status" [employee]=employee></app-sendmail>
     </form>
+    <h1>Messages</h1>
     <div class="messages" *ngFor="let email of emails">
         <h2>{{email.subject}}</h2>
         <p>{{email.message}}</p>
