@@ -1,57 +1,12 @@
 {
   "employees": [
     {
-      "id": 323322321,
-      "fname": "Artem",
-      "lname": "Meshkov",
-      "dateofbirth": "asd",
-      "salary": "dsgas",
-      "email": "asdg",
-      "topEmployee": true
-    },
-    {
-      "id": 3543854,
-      "fname": "assdg",
-      "lname": "dsfhdsfh",
-      "dateofbirth": "sdfh",
-      "salary": "0ssdfh",
-      "email": "sdfhsdfh",
-      "topEmployee": true
-    },
-    {
-      "id": 43634276,
-      "fname": "sdfhsdj",
-      "lname": "sdfgjfgj",
-      "dateofbirth": "fdgjdfgj",
-      "salary": "dfgjdfgj",
-      "email": "dfgjdfgj",
-      "topEmployee": true
-    },
-    {
-      "id": 1241256,
-      "fname": "abrams",
-      "lname": "washington",
-      "salary": "pasta",
-      "email": "abrams@abramivich.com",
-      "dateofbirth": "07/08/1999",
-      "topEmployee": false
-    },
-    {
-      "id": 2346,
-      "fname": "sdaghasdh",
-      "lname": "asdh",
-      "salary": "0sdfhsdfh",
-      "email": "dsfh",
-      "dateofbirth": "dasfhdfsh",
-      "topEmployee": false
-    },
-    {
-      "id": 1255326,
-      "fname": "asdgsdh",
-      "lname": "asdghsdfah",
-      "salary": "0dsfhj",
-      "email": "sdfhsdfh",
-      "dateofbirth": "dsfhsdfh",
+      "id": 21354,
+      "fname": "dfshg",
+      "lname": "fdsh",
+      "salary": "dfhsdfh",
+      "email": "dfhq",
+      "dateofbirth": "fdh",
       "topEmployee": false
     }
   ],

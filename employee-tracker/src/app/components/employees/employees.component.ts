@@ -28,7 +28,7 @@ export class EmployeesComponent implements OnInit {
     this.statusAddEmployee = !this.statusAddEmployee
   }
 
-  addEmployee (event: any) {
+  addEmployee (event: Employee) {
     this.employeeSerive.addEmployees(event).subscribe(() => this.employees.push(event))
     this.addEmployeeBtn()
   }

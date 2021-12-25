@@ -26,6 +26,9 @@ export class EmployeesService {
     return this.http.delete<Employee>(url)
   }
 
+  // get the specific employee we want to delete
+  // delete it
+
   addEmployees (employee:Employee): Observable<Employee> {
     return this.http.post<Employee>(this.apiurl,employee)
   }

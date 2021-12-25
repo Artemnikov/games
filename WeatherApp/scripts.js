@@ -11,8 +11,8 @@ window.addEventListener('load', () => {
             long = position.coords.longitude
             lat = position.coords.latitude
             const icon = document.querySelector('.imgs');
-            fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=hourly,munutely&units=metric&appid=b190a0605344cc4f3af08d0dd473dd25
-            `)
+
+            fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=hourly,munutely&units=metric&appid=b190a0605344cc4f3af08d0dd473dd25`)
                 .then(response => {
                     return response.json();
                 })
