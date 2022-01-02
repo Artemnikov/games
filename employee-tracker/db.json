@@ -1,15 +1,5 @@
 {
-  "employees": [
-    {
-      "id": 21354,
-      "fname": "dfshg",
-      "lname": "fdsh",
-      "salary": "dfhsdfh",
-      "email": "dfhq",
-      "dateofbirth": "fdh",
-      "topEmployee": false
-    }
-  ],
+  "employees": [],
   "messages": [
     {
       "idn": 323322321,
@@ -50,6 +40,14 @@
       "subject": "asdh",
       "message": "dfsjhfgjdfgjdfgjhjkghjl",
       "id": 5
+    },
+    {
+      "idn": 323322321,
+      "to": "artemasgd meshkovfdj",
+      "cc": "aba",
+      "subject": "aaaaaaaaaa",
+      "message": "You are yhe worst employee",
+      "id": 6
     }
   ]
 }

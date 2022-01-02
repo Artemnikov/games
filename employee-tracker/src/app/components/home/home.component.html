@@ -4,4 +4,5 @@
         <h2>Top Employees</h2>
         <button *ngFor="let employee of topEmployees" class="btn" routerLink="/employee/{{employee.id}}">{{employee.fname}} </button>
     </nav>
+    <app-search-employee></app-search-employee>
 </section>

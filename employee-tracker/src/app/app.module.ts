@@ -15,6 +15,8 @@ import { Router, RouterModule } from '@angular/router';
 import { SendmailComponent } from './components/sendmail/sendmail.component';
 import { EmployeeDetailSpecificComponent } from './components/employee-detail-specific/employee-detail-specific.component';
 import { SearchEmployeeComponent } from './components/search-employee/search-employee.component';
+import { FilterPipe } from './pipes/filter.pipe';
+import { Ng2SearchPipe, Ng2SearchPipeModule } from 'ng2-search-filter';
 
 
 @NgModule({
@@ -28,13 +30,15 @@ import { SearchEmployeeComponent } from './components/search-employee/search-emp
     HeaderComponent,
     SendmailComponent,
     EmployeeDetailSpecificComponent,
-    SearchEmployeeComponent
+    SearchEmployeeComponent,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
     AppRoutingModule,
+    Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

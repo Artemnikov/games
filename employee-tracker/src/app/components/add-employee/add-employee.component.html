@@ -16,8 +16,7 @@
     <input [(ngModel)]="newEmployee.email" placeholder="Email" name="email" required>
 
     <label for="salary">Salary</label>
-    <input [(ngModel)]="newEmployee.salary" placeholder="Salary" name="salary" required>
+    <input type="number" [(ngModel)]="newEmployee.salary" placeholder="Salary" name="salary" required>
 
-    <button class="btn">Add</button>
-
+    <input type="submit" value="Add" class="btn">
 </form>

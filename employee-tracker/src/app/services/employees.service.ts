@@ -1,16 +1,22 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http'
-import { Observable } from 'rxjs';
+import { HttpClient, HttpHeaders } from '@angular/common/http'
+import { catchError, Observable, of, pipe, tap } from 'rxjs';
 
 import { Employee } from '../employee-interface';
+import { compileNgModuleDeclarationExpression } from '@angular/compiler/src/render3/r3_module_compiler';
 
 @Injectable({
   providedIn: 'root'
 })
 export class EmployeesService {
+
   private apiurl = 'http://localhost:5000/employees'
 
   constructor(private http: HttpClient) { }
+
+  httpOptions = {
+    headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  };
 
   getEmployees (): Observable<Employee[]> {
     return this.http.get<Employee[]>(this.apiurl)

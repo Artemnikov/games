@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { debounceTime, distinctUntilChanged, Observable, Subject } from 'rxjs';
+import { Component, Input, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { debounceTime, distinctUntilChanged, filter, Observable, Subject, switchMap } from 'rxjs';
 import { Employee } from 'src/app/employee-interface';
 import { EmployeesService } from 'src/app/services/employees.service';
 
@@ -8,14 +9,27 @@ import { EmployeesService } from 'src/app/services/employees.service';
   templateUrl: './search-employee.component.html',
   styleUrls: ['./search-employee.component.scss']
 })
+
 export class SearchEmployeeComponent implements OnInit {
+
+  employees: Employee[] = []
+  foundEmployee: Employee[] =[]
+  name: string = ''
 
   constructor ( private employeeService: EmployeesService ) { }
 
-  search ( input: string ): void {
+  ngOnInit(): void {
+    this.employeeService.getEmployees().subscribe((employee) => this.employees = employee)
   }
 
-  ngOnInit(): void {
+  search() {
+    if(this.name === '')
+      this.foundEmployee = []
+    else {
+      this.foundEmployee = this.employees.filter(res =>{
+        return res.fname.toLowerCase().match(this.name.toLowerCase())
+      })
+    }
   }
 
 }

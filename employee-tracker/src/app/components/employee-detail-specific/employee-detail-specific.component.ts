@@ -2,8 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Employee } from 'src/app/employee-interface';
 import { EmployeesService } from 'src/app/services/employees.service';
+
 import { Location } from '@angular/common';
 import { employees } from 'src/app/mock-employee';
+
 import { SendEmailMessageService } from 'src/app/services/send-email-message.service';
 import { Email } from 'src/app/email-interface';
 

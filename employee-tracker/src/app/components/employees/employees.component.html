@@ -11,13 +11,15 @@
             <th>Lastname</th>
             <th>Email</th>
             <th>Salary</th>
+            <th>Date Of Birth</th>
             <th>Action</th>
         </tr>
         <tr [class.selected]="selectedEmployee?.includes(employee)" *ngFor="let employee of employees">
             <td (click)="addeditEmployee(employee)">{{employee.fname}}</td>
             <td>{{employee.lname}}</td>
             <td>{{employee.email}}</td>
-            <td>{{employee.salary}}</td>
+            <td>{{employee.salary | currency: 'NIS' : '₪'}}</td>
+            <td>{{employee.dateofbirth}}</td>
             <td><button class="btn" (click)="DeleteEmployee(employee)">Remove</button></td>
         </tr>
     </table>

@@ -1,7 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { Employee } from 'src/app/employee-interface';
 import { EmployeesService } from 'src/app/services/employees.service';
-
+import { Pipe, PipeTransform  } from '@angular/core';
 @Component({
   selector: 'app-employees',
   templateUrl: './employees.component.html',
@@ -9,6 +9,8 @@ import { EmployeesService } from 'src/app/services/employees.service';
 })
 
 export class EmployeesComponent implements OnInit {
+
+
   statusAddEmployee: boolean = false
   employees: Employee[] = []
   selectedEmployee: Employee[] = []
@@ -21,7 +23,7 @@ export class EmployeesComponent implements OnInit {
   }
 
   initialize ():void {
-    this.employeeSerive.getEmployees().subscribe((employee) => this.employees = employee)
+    this.employeeSerive.getEmployees().subscribe((employee) => {this.employees = employee})
   }
 
   addEmployeeBtn () {
@@ -29,6 +31,7 @@ export class EmployeesComponent implements OnInit {
   }
 
   addEmployee (event: Employee) {
+    console.log(event)
     this.employeeSerive.addEmployees(event).subscribe(() => this.employees.push(event))
     this.addEmployeeBtn()
   }
