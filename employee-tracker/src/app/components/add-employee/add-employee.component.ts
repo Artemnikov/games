@@ -24,10 +24,11 @@ export class AddEmployeeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('aa')
   }
 
   onCLick () {
-    if(employees.id == 0) return
+    if(this.newEmployee.id == 0) return
     console.log('1')
     this.addEmployee.emit(this.newEmployee)
   }

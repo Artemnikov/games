@@ -1,5 +1,15 @@
 {
-  "employees": [],
+  "employees": [
+    {
+      "id": 323322321,
+      "fname": "Artem",
+      "lname": "Meshkov",
+      "dateofbirth": "08/06/1999",
+      "salary": 500,
+      "email": "sartem.meshkov@gmail.com",
+      "topEmployee": false
+    }
+  ],
   "messages": [
     {
       "idn": 323322321,
