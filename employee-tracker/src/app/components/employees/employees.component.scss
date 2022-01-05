@@ -1,52 +1,46 @@
 .main {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     .employees {
-      border-bottom: 2px solid #009879;
-      text-align: center;
-      border-collapse: collapse;
-      font-size: 0.9em;
-      min-width: 400px;
-
+        border-bottom: 2px solid #009879;
+        text-align: center;
+        border-collapse: collapse;
+        font-size: 0.9em;
+        min-width: 400px;
         tr:first-child {
-          background: #009879;
-          color: white;
-          text-align: left;
-          font-weight: bold;
+            background: #009879;
+            color: white;
+            text-align: left;
+            font-weight: bold;
         }
-
         td,
         th {
-          padding: 12px 15px;
+            padding: 12px 15px;
         }
-
         tr:not(:first-child):nth-of-type(odd) {
-          background: #e7e7e7;
+            background: #e7e7e7;
         }
-
         tr:not(:first-child):hover {
-          cursor: pointer;
-          background: rgb(122, 120, 120);
-          color: white;
-          }
-      }
+            background: rgb(122, 120, 120);
+            color: white;
+        }
+        td:first-child {
+            cursor: pointer;
+        }
+    }
 }
 
-
 .selected input {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .selectedEmployee input {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
-
 .selected {
-  border-left: 0.5rem solid black;
+    border-left: 0.5rem solid black;
 }

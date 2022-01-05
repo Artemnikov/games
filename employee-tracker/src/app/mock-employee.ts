@@ -1,6 +1,6 @@
 import { Employee } from "./employee-interface";
 
-export const employees :Employee[] = [
+export const employees: Employee =
   {
     id: 0,
     fname: '',
@@ -10,4 +10,3 @@ export const employees :Employee[] = [
     dateofbirth: '',
     topEmployee: false
   }
-]

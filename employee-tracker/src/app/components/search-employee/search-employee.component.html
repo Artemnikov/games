@@ -1,0 +1,9 @@
+<div class="container">
+    <label for="search">Search employee</label>
+    <input type="text" name="search" [(ngModel)]="name" (ngModelChange)="search()" class="searchTerm">
+    <div class="employeeSelector" *ngFor="let employee of foundEmployee" routerLink="/employee/{{employee.id}}">
+        <p>
+            {{ employee.fname }} {{employee.lname}}
+        </p>
+    </div>
+</div>

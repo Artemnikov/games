@@ -1,10 +1,8 @@
 <div class="main">
     <h2 class="title">Dashboard</h2>
     <div class="new_employee">
-      <button (click)="addEmployeeBtn()" class="btn">Add</button>
-      <app-add-employee
-       *ngIf="statusAddEmployee"
-         (addEmployee)="addEmployee($event)">[(addEmployee)]="addEmployee"</app-add-employee>
+        <button (click)="addEmployeeBtn()" class="btn">Add</button>
+        <app-add-employee *ngIf="statusAddEmployee" (addEmployee)="addEmployee($event)">[(addEmployee)]="addEmployee"</app-add-employee>
     </div>
 
     <table class="employees">
@@ -13,19 +11,21 @@
             <th>Lastname</th>
             <th>Email</th>
             <th>Salary</th>
+            <th>Date Of Birth</th>
             <th>Action</th>
         </tr>
         <tr [class.selected]="selectedEmployee?.includes(employee)" *ngFor="let employee of employees">
-          <td (click)="addeditEmployee(employee)">{{employee.fname}}</td>
-          <td>{{employee.lname}}</td>
-          <td>{{employee.email}}</td>
-          <td>{{employee.salary}}</td>
-          <td><button class="btn" (click)="DeleteEmployee(employee)">Remove</button></td>
+            <td (click)="addeditEmployee(employee)">{{employee.fname}}</td>
+            <td>{{employee.lname}}</td>
+            <td>{{employee.email}}</td>
+            <td>{{employee.salary | currency: 'NIS' : '₪'}}</td>
+            <td>{{employee.dateofbirth}}</td>
+            <td><button class="btn" (click)="DeleteEmployee(employee)">Remove</button></td>
         </tr>
     </table>
 
 
     <div class="employee_detail" *ngIf="selectedEmployee!.length != 0">
-      <app-employee-detail class="message" [selectedEmployee]=selectedEmployee (editedEmployee)="editEmployee($event)"></app-employee-detail>
+        <app-employee-detail class="message" [selectedEmployee]=selectedEmployee (editedEmployee)="editEmployee()"></app-employee-detail>
     </div>
 </div>

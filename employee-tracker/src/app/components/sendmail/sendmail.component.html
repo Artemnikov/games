@@ -1,0 +1,15 @@
+<form class="form">
+    <label for="to">To</label>
+    <input [(ngModel)]="employee.fname + employee.lname" type="text" name="to" disabled>
+
+    <label for="Cc">Cc</label>
+    <input [(ngModel)]="email.cc" type="text" name="Cc" required>
+
+    <label for="Subject">Subject</label>
+    <input [(ngModel)]="email.subject" type="text" name="Subject">
+
+    <label for="Message">My Message</label>
+    <textarea [(ngModel)]="email.message" name="Message" cols="30" rows="10"></textarea>
+
+    <button class="btn" (click)="sendEmail()">Send</button>
+</form>

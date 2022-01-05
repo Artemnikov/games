@@ -1,26 +1,29 @@
 .main {
-  ::-webkit-scrollbar {
-    width: 10px;               /* width of the entire scrollbar */
-  }
-  ::-webkit-scrollbar-track {
-    background: #ccc;        /* color of the tracking area */
-  }
-  ::-webkit-scrollbar-thumb {
-    background-color: #ccc;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid darkblue;  /* creates padding around scroll thumb */
-  }
-
-  height: 100vh;
-
-  .sections{
-    height: calc(100vh - 50px);
-    position: relative;
-    top: 0;
-    overflow-y: scroll;
-    > * {
-      width: 100vw;
+     ::-webkit-scrollbar {
+        width: 10px;
+        /* width of the entire scrollbar */
     }
-  }
-
+     ::-webkit-scrollbar-track {
+        background: #ccc;
+        /* color of the tracking area */
+    }
+     ::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        /* color of the scroll thumb */
+        border-radius: 20px;
+        /* roundness of the scroll thumb */
+        border: 3px solid darkblue;
+        /* creates padding around scroll thumb */
+    }
+    overflow: hidden;
+    height: 100vh;
+    .sections {
+        height: calc(100vh - 7rem);
+        position: relative;
+        top: 0;
+        overflow-y: scroll;
+        >* {
+            width: 100vw;
+        }
+    }
 }

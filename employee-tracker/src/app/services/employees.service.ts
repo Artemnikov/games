@@ -1,20 +1,30 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http'
-import { Observable } from 'rxjs';
+import { catchError, Observable, of, pipe, tap } from 'rxjs';
 
 import { Employee } from '../employee-interface';
-import { Message } from '../Message-interface';
+import { compileNgModuleDeclarationExpression } from '@angular/compiler/src/render3/r3_module_compiler';
 
 @Injectable({
   providedIn: 'root'
 })
 export class EmployeesService {
+
   private apiurl = 'http://localhost:5000/employees'
 
   constructor(private http: HttpClient) { }
 
+  httpOptions = {
+    headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  };
+
   getEmployees (): Observable<Employee[]> {
     return this.http.get<Employee[]>(this.apiurl)
+  }
+
+  getEmployee (id: number): Observable<Employee> {
+    const api = `${this.apiurl}/${id}`
+    return this.http.get<Employee>(api)
   }
 
   deleteEmployees (employee:Employee): Observable<Employee> {
@@ -22,12 +32,14 @@ export class EmployeesService {
     return this.http.delete<Employee>(url)
   }
 
+  // get the specific employee we want to delete
+  // delete it
+
   addEmployees (employee:Employee): Observable<Employee> {
-    return this.http.post<Employee>(this.apiurl,
-      employee)
+    return this.http.post<Employee>(this.apiurl,employee)
   }
 
-  editEmployees (employee:Employee) {
+  editEmployees ( employee: Employee ) {
     const url = `${this.apiurl}/${employee.id}`
     return this.http.put(url, {
       "id": employee.id,
@@ -38,11 +50,4 @@ export class EmployeesService {
       "email": employee.email,
       "topEmployee": employee.topEmployee
     })}
-
-    saveMessage (message:Message): Observable<Message>
-    {
-      const url = `${this.apiurl}/${message.id}`
-      return this.http.post<Message>(url, message.body)
-    }
 }
-``

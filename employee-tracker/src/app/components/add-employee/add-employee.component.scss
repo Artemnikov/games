@@ -8,13 +8,11 @@ form {
     flex-wrap: wrap;
     grid-template-columns: 0.7fr 1fr;
     row-gap: 0.5rem;
-
-    background-color: #ccf;
+    background-color: #fff;
     border: 2px solid darkblue;
-    border-radius: 1.5em;
+    border-radius: 0.5em;
     padding: 1rem;
-
     input {
-      font-size: 1.2rem;
+        font-size: 1.2rem;
     }
 }

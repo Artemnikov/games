@@ -10,18 +10,26 @@ import { employees } from 'src/app/mock-employee';
 
 export class AddEmployeeComponent implements OnInit {
 
-  @Output() addEmployee = new EventEmitter<Employee[]>()
-
-  newEmployee?: Employee[]
+  @Output() addEmployee = new EventEmitter<Employee>()
+  newEmployee: Employee = {
+    id: 0,
+    fname: '',
+    lname: '',
+    dateofbirth: '',
+    salary: 0,
+    email: '',
+    topEmployee: false
+  }
 
   constructor() { }
 
   ngOnInit(): void {
-    this.newEmployee = employees
+    console.log('aa')
   }
 
   onCLick () {
-    if(employees[0].id == 0) return
+    if(this.newEmployee.id == 0) return
+    console.log('1')
     this.addEmployee.emit(this.newEmployee)
   }
 }

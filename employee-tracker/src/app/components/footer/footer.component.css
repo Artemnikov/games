@@ -2,13 +2,13 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    height: 50px;
+    height: 3rem;
     background: darkblue;
     color: white;
     display: flex;
     padding-block: 0.5rem;
     justify-content: center;
-    justify-content:  space-around;
+    justify-content: space-around;
     align-items: center;
 }
 

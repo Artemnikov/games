@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Employee } from 'src/app/employee-interface';
+import { EmployeesService } from 'src/app/services/employees.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  topEmployees: Employee[] = []
+
+  constructor(private employeeService: EmployeesService) { }
 
   ngOnInit(): void {
+    this.employeeService.getEmployees().subscribe((employee) => {
+      for(let employ of employee) {
+        if( employ.topEmployee == true )
+        this.topEmployees.push(employ)
+      }
+    })
   }
 
 }
