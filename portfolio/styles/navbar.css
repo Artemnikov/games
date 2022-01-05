@@ -1,0 +1,32 @@
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 3rem;
+  padding-inline: 2rem;
+  color: white;
+
+  background: var(--clr-dark);
+}
+
+.nav_bar {
+  display: flex;
+  height: 100%;
+}
+
+.nav_bar button  {
+  font-weight: 700;
+  width: 10rem:
+  height: 100%;
+  background: inherit;
+  color: inherit;
+}
+
+.nav_bar button:hover {
+  border-bottom: 2px solid white;
+}

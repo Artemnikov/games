@@ -1,12 +1,17 @@
+import { toggleSidebar } from './hamburger.js'
+
+
 // input form
 function GetId(item) {
     return document.getElementById(item)
 }
+
 const form = {
     name: GetId("form_name"),
     email: GetId("form_mail"),
     text: GetId("form_text"),
 }
+
 const dir = window.location.pathname.split('/')[2];
 
 document.getElementById('form_btn').addEventListener('click', (e) => {
@@ -29,21 +34,10 @@ document.getElementById('form_btn').addEventListener('click', (e) => {
         document.getElementsByClassName('thank_you_h')[0].classList.toggle('hide')
         document.getElementById('contact_form').classList.toggle('thank_you')
     }
-    console.log(data)
     xhr.send(data)
 })
 
-// if (form_name != '' && form_email != '') {
-//     [form_name, form_email].forEach((el) => {
-//         el.addEventListener('input', () => {
-//             el.style.outline = 'none'
-//         })
-//     })
-// }
-
 // navigation 
-
-import { toggleSidebar } from './hamburger.js'
 
 const setUpScroll = (setup) => {
     item.forEach((element, index) => {
@@ -67,14 +61,14 @@ const top = document.getElementsByClassName('back_to_top')[0]
 const setup = [about]
 
 // count visitor
-console.log('1')
 fetch('https://api.countapi.xyz/update/artemishkov/?amount=1')
     .then(data => data.json)
     .then(data => {
         console.log(data)
         console.log("Hey console seeker!. You are the: " + data.value + "nth visitor!")
     })
-console.log('2')
 // get user location
-fetch("https://api.ipify.org?format=json")
-    .then(response => response.json())
+// fetch("https://api.ipify.org?format=json")
+//     .then(response => response.json())
+
+// to do- fix the css of the siae to a better formuleted style

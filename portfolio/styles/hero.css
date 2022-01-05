@@ -1,0 +1,88 @@
+/* landing */
+.hero {
+    padding-inline: 1%;
+    height: calc(100vh - 3rem);
+    line-height: 1.4;
+    flex-direction: column;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero h2 {
+    font-weight: 400;
+  }
+  
+  .hero img:first-of-type {
+    width: 15%;
+    max-width: 8rem;
+    border-radius: 50%;
+  }
+  
+  .hero_svg {
+    max-width: 80vh;
+    min-width: 20rem;
+    width: 50%;
+    margin-top: auto;
+  }
+  
+  .language_wrapper {
+    height: 40px;
+    overflow: hidden;
+  }
+  
+  .language_wrapper p {
+    font-size: 1.8rem;
+    position: relative;
+    text-align: center;
+    top: 0;
+    animation: text_slide 9s steps(3) infinite;
+  }
+  
+  @keyframes text_slide {
+    100% {
+      top: -120px;
+    }
+  }
+  
+  .language_wrapper p::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid black;
+    background: var(--clr-primary);
+    animation: typing 3s infinite;
+  }
+  
+  .language_wrapper p:last-of-type::after {
+    left: 0;
+    border-right: 2px solid black;
+    animation: typing_reverse 3s infinite;
+  }
+  
+  @keyframes typing_reverse {
+    50% {
+      left: -100%;
+      margin: 0 -30.5 0 30.5;
+    }
+  
+    100% {
+      left: 0;
+      margin: 0 -30.5 0 30.5;
+    }
+  }
+  
+  @keyframes typing {
+    50% {
+      left: 120%;
+      margin: 0 -30.5 0 30.5;
+    }
+  
+    100% {
+      left: 0;
+      margin: 0 -30.5 0 30.5;
+    }
+  }

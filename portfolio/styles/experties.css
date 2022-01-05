@@ -1,0 +1,27 @@
+/* experties */
+
+.experties {
+    background: var(--clr-light);
+    position: relative;
+    top: -5rem;
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    width: 50rem;
+    max-width: 85vw;
+    border-radius: 0.5em;
+  }
+  
+  .experties_card {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    width: fit-content;
+  }
+  
+  .experties_card ul {
+    list-style: none;
+    padding: inherit;
+  }
+  
